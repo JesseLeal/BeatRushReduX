@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A8709315-1409-4621-ACE8-7D0089E9A260}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{A8709315-1409-4621-ACE8-7D0089E9A260}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Tuturu (online-audio-converter_com)" ID="{6825E1D1-EE31-4FAE-97DB-413F8AED7921}" ShortID="185774315">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Tuturu (online-audio-converter_com)" ID="{973AB5FF-83CD-4D89-8F65-10BE1C398F75}" ShortID="462788006">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuturu (online-audio-converter_com)" ID="{2F007800-C36E-4BF4-A514-6F2BD0266D3E}">
+									<Language>SFX</Language>
+									<AudioFile>Tuturu (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1033384467"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D4DB0BB8-265F-4B59-AA2D-035EA6D24E26}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{BCF2B4F2-BC8F-4E58-865B-1FABB59A1B9F}">
+									<ClipList>
+										<MusicClip Name="Tuturu (online-audio-converter_com)" ID="{DF5A8027-72E4-4751-B6ED-A241F217CFB0}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1532.52083333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Tuturu (online-audio-converter_com)" ID="{2F007800-C36E-4BF4-A514-6F2BD0266D3E}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{79C261F7-A320-496B-ADAE-C17EBA849BF2}"/>
+						<MusicCue Name="Exit Cue" ID="{00A68474-4BF5-40A9-8D8D-49EB1C8CFC44}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1532.52083333333"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

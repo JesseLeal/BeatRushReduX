@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5BBBCB36-8D79-4F38-85CC-FC35954E3EB0}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5BBBCB36-8D79-4F38-85CC-FC35954E3EB0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test" ID="{97BB7661-580F-49BF-A22C-74B13E12478B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{CA3AF580-3269-4E29-9512-53FAA16D979D}" ShortID="350147097">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tuturu (online-audio-converter_com)" ID="{6825E1D1-EE31-4FAE-97DB-413F8AED7921}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
