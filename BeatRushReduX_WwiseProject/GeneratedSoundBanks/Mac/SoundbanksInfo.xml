@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3157003241" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
+			<ShortName>Test</ShortName>
+			<Path>Test.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="OneShot" DurationMin="1.532521" DurationMax="1.532521">
+					<IncludedMemoryFiles>
+						<File Id="1033384467" Language="SFX">
+							<ShortName>Tuturu (online-audio-converter.com).wav</ShortName>
+							<Path>SFX\Tuturu (online-audio-converter.com)_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
