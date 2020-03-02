@@ -32,7 +32,7 @@ public class AudioPeer_CS : MonoBehaviour
         CreateAudioBands();
         GetAmplitude();
     }
-
+    
     void GetAmplitude()
     {
         float currentAmplitude = 0;

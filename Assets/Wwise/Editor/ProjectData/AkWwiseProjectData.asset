@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 49a5195d513f774fa428cc05f3057ebc
     GuidInternal: 
-    m_lastTime: -8586187495393825208
+    m_lastTime: -8586187476390284353
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 85be5697db3916428dd019db851ebbeb
     GuidInternal: 
-    m_lastTime: -8586187495393954652
+    m_lastTime: -8586187476390394054
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 71b90b83133d4f4eb199882add035c7f
     GuidInternal: 
-    m_lastTime: -8586187483375367613
+    m_lastTime: -8586187476390314274
     List:
     - name: Test
       guid: f6237e4ee09a6845b2e230a413ff0723
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 36cbbb5b798d384f85ccfc35954e3eb0
     GuidInternal: 
-    m_lastTime: -8586187486262737593
+    m_lastTime: -8586187476390503767
     List:
     - name: Test
       guid: 6176bb970f58bf49a22c74b13e12478b
@@ -75,32 +75,34 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d10f7d753a51694dae5970adcb3547d0
     GuidInternal: 
-    m_lastTime: -8586187495395413572
+    m_lastTime: -8586187476390503767
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 264a66de5f52b7438b09525afc111de5
     GuidInternal: 
-    m_lastTime: -8586187495394942052
+    m_lastTime: -8586187476390304302
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 7763abcf3158cf488b0acbbb64911f65
     GuidInternal: 
-    m_lastTime: -8586187495395652928
+    m_lastTime: -8586187476390294311
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: b5c3e290619dcf449fc6522118d89605
     GuidInternal: 
-    m_lastTime: -8586187495394712669
+    m_lastTime: -8586187476390294311
     List: []
   ExpandedItems:
   - /BeatRushReduX_WwiseProject
   - /BeatRushReduX_WwiseProject/Events
   - /BeatRushReduX_WwiseProject/Events/Default Work Unit
+  - /BeatRushReduX_WwiseProject/SoundBanks
+  - /BeatRushReduX_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

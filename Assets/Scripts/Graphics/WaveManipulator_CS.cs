@@ -28,7 +28,7 @@ public class WaveManipulator_CS : MonoBehaviour
     bool m_bar3CycleComplete = true;
 
 
-    [SerializeField] [Range(0.0f, 200.0f)] float multiplier = 1.0f;
+    [SerializeField] [Range(0.0f, 3.0f)] float multiplier = 1.0f;
 
     Material m_material = null;
     float m_waveIntensity = 1.0f;
@@ -39,6 +39,7 @@ public class WaveManipulator_CS : MonoBehaviour
 
     void Update()
     {
+        //Debug.Log(AudioPeer_CS.m_amplitudeBuffer);
         UpdateDensity0();
         UpdateDensity1();
         UpdateDensity2();
