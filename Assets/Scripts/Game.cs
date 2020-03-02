@@ -59,6 +59,7 @@ public class Game : Singleton<Game>
     {
         m_canScore = false;
         m_score -= penalty;
+        m_score = Mathf.Clamp(m_score, 0, int.MaxValue);
         m_streakTime = 0.0f;
         m_scoreText.text = "Score: " + m_score.ToString("D8");
         m_multText.text = "Multiplier: X0";
