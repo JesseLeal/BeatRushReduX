@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" SchemaVersion="97">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Hug_State" ID="{946CCE69-3DC8-4CDA-A7B7-DDDF180CEE35}">
+					<ChildrenList>
+						<State Name="None" ID="{12F3B8EC-B49A-49AC-A418-055359A192CC}"/>
+						<State Name="Intro" ID="{2172CC41-DD8B-48B5-8226-965B9E84BCBE}"/>
+						<State Name="Med_Phase_1" ID="{2C56A303-87D4-4C56-9420-D2EB1199A7D7}"/>
+						<State Name="Rest_Phase_1" ID="{1210FA6A-873A-4F01-8EDB-50AF9675BA11}"/>
+						<State Name="Med_Phase_2" ID="{82E8C14F-FE38-4A80-AA0D-37653487030C}"/>
+						<State Name="Rest_Phase_2" ID="{AE3C53DC-18B5-488C-ADD8-8ED0AE03A492}"/>
+						<State Name="Intense_Phase_1" ID="{80D067D1-077E-4195-8E26-C0F31258FC0E}"/>
+						<State Name="Rest_Phase_3" ID="{8143584B-58B5-4E6E-8FA8-2B3B38DC864C}"/>
+						<State Name="Med_Phase_3" ID="{4F31BBE1-4F40-4595-BE63-1EB878309BBA}"/>
+						<State Name="Rest_Phase_4" ID="{ECC51C9C-CB06-4CA7-B464-192CCAC46E66}"/>
+						<State Name="Med_Phase_4" ID="{279708BF-A6F8-418C-B62E-A919FCCF6D06}"/>
+						<State Name="Intense_Phase_2" ID="{48814993-7F9A-44DA-A8B6-37A2F5DB51EC}"/>
+						<State Name="Intense_Phase_3" ID="{73C1CB49-A502-4F3D-A2EC-AB6DC308DC12}"/>
+						<State Name="Finish" ID="{44286CF2-550F-477D-BBDC-646E9402D8C1}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Nasty_State" ID="{AD1E4FCA-08EA-47E5-B659-C85490FE01CF}">
+					<ChildrenList>
+						<State Name="None" ID="{24F12098-D7DA-4717-8980-963065882A55}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Town_State" ID="{23E322BC-1B57-4072-9B29-996B0F2EB01B}">
+					<ChildrenList>
+						<State Name="None" ID="{E4A061E3-BFBA-404C-887D-699A45F11C61}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

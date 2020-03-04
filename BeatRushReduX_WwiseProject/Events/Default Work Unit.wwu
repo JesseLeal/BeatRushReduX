@@ -3,20 +3,23 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{5BBBCB36-8D79-4F38-85CC-FC35954E3EB0}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test" ID="{97BB7661-580F-49BF-A22C-74B13E12478B}">
+				<Event Name="Hug_and_kill" ID="{A785DBDD-8BEA-453C-8D1A-4589AD8F8ED7}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{CA3AF580-3269-4E29-9512-53FAA16D979D}" ShortID="350147097">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Tuturu (online-audio-converter_com)" ID="{6825E1D1-EE31-4FAE-97DB-413F8AED7921}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
+				</Event>
+				<Event Name="Nasty_Nasty_Spell" ID="{4D4EFE0D-59E7-4716-8ED0-CF41ED34979A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="First_Town" ID="{37D59C08-F6B4-4301-8DA1-1097E89A899A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 				</Event>
 			</ChildrenList>
 		</WorkUnit>

@@ -3,7 +3,11 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{A8709315-1409-4621-ACE8-7D0089E9A260}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicSegment Name="Tuturu (online-audio-converter_com)" ID="{6825E1D1-EE31-4FAE-97DB-413F8AED7921}" ShortID="185774315">
+				<MusicSwitchContainer Name="HUG AND KILL" ID="{5336109C-8AB0-4D17-9F77-7C8D7536D4D5}" ShortID="158406986">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
@@ -13,55 +17,1753 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicTrack Name="Tuturu (online-audio-converter_com)" ID="{973AB5FF-83CD-4D89-8F65-10BE1C398F75}" ShortID="462788006">
+						<MusicSegment Name="KFINISH" ID="{00FD45FB-C9C6-4C6B-BB47-637B685CDE13}" ShortID="784952993">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="15022.4263038549"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Tuturu (online-audio-converter_com)" ID="{2F007800-C36E-4BF4-A514-6F2BD0266D3E}">
-									<Language>SFX</Language>
-									<AudioFile>Tuturu (online-audio-converter.com).wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1033384467"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<MusicTrack Name="KFINISH" ID="{6E9320CC-0F68-45C9-974B-AA09126FAB83}" ShortID="612242798">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KFINISH" ID="{03AF4E65-A198-4CAC-A255-BFAB852E1B23}">
+											<Language>SFX</Language>
+											<AudioFile>KFINISH.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="311261215"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2CAB3560-55A4-4B5D-A63D-2DD24B14DA5B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{834C1E90-97C5-4282-AEFB-50F444ABFAB8}">
+											<ClipList>
+												<MusicClip Name="KFINISH" ID="{81333A0B-48CD-454A-BDB7-771B5D97B32F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="15022.4263038549"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KFINISH" ID="{03AF4E65-A198-4CAC-A255-BFAB852E1B23}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
-							<TransitionList>
-								<MusicTransition Name="Root" ID="{D4DB0BB8-265F-4B59-AA2D-035EA6D24E26}">
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{93B197D6-2034-4D6A-84D4-0112B4DBF2F8}"/>
+								<MusicCue Name="Exit Cue" ID="{2B01B976-C80C-409F-A9D6-F7997CDB4B4A}">
 									<PropertyList>
-										<Property Name="IsFolder" Type="bool" Value="True"/>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="15022.4263038549"/>
 									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KINTENSE_PHASE_FINALE" ID="{27A384B7-31E6-4540-BACB-81E6A8FA3C31}" ShortID="972113852">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="32417.1882086168"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KINTENSE_PHASE_FINALE" ID="{35BEC36A-C27C-497C-BF36-840C75F7008E}" ShortID="10932485">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KINTENSE_PHASE_FINALE" ID="{3E4CCFFD-5B55-4B4D-8BC9-D7D7EDAF93F8}">
+											<Language>SFX</Language>
+											<AudioFile>KINTENSE_PHASE_FINALE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217893668"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D39EC39B-FBDC-4B93-987E-36E4E859E5CB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{7BB62E52-893C-4D50-A15E-BA3237137671}">
+											<ClipList>
+												<MusicClip Name="KINTENSE_PHASE_FINALE" ID="{52EB15E8-D9EB-4B4A-8126-4B246BF70D33}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="32417.1882086168"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KINTENSE_PHASE_FINALE" ID="{3E4CCFFD-5B55-4B4D-8BC9-D7D7EDAF93F8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{4B9B09FE-4EB9-4462-9209-0DCC7041D0A5}"/>
+								<MusicCue Name="Exit Cue" ID="{1FCE8CAB-2ABA-48D2-866B-8D77A91F0CB3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="32417.1882086168"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KINTENSE_PHASE_ONE" ID="{827D2E5D-5497-4C4B-B1A9-D687C4A75582}" ShortID="773573478">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="22919.6598639456"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KINTENSE_PHASE_ONE" ID="{297CB45C-02B8-44C1-857B-2ADBBEB768D8}" ShortID="944883053">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KINTENSE_PHASE_ONE" ID="{50B20EE2-9080-47E6-94C8-FA4E42522A97}">
+											<Language>SFX</Language>
+											<AudioFile>KINTENSE_PHASE_ONE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="812827970"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{52DEC322-2EEB-4FDD-9105-941008366BA2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{72C4D478-DA3C-477E-A150-EA2060DD9F2E}">
+											<ClipList>
+												<MusicClip Name="KINTENSE_PHASE_ONE" ID="{AA1CC132-19ED-4309-838C-2C07BF37096E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="22919.6598639456"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KINTENSE_PHASE_ONE" ID="{50B20EE2-9080-47E6-94C8-FA4E42522A97}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{13361573-57AC-4AB0-874B-2F785569B4B3}"/>
+								<MusicCue Name="Exit Cue" ID="{7A58E4A1-A1A5-4836-8CB1-1F0574CA45A7}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="22919.6598639456"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KINTENSE_PHASE_TWO" ID="{4B44F7D1-3033-49A6-B9B5-E374186B5D2A}" ShortID="138156738">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="11610"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KINTENSE_PHASE_TWO" ID="{BF154495-D580-4EC9-8037-CC061F188CF6}" ShortID="244120139">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KINTENSE_PHASE_TWO" ID="{872075CC-45A2-4D9A-BB8D-D8CB91748C6C}">
+											<Language>SFX</Language>
+											<AudioFile>KINTENSE_PHASE_TWO.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="941128363"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7AA28B12-1709-4F29-B73B-5DA295DE977B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{63B52E76-677F-492D-B4A4-A528EE7D1A4D}">
+											<ClipList>
+												<MusicClip Name="KINTENSE_PHASE_TWO" ID="{78F92780-B70C-4044-81C2-C0CDF3EC8BCD}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="11610"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KINTENSE_PHASE_TWO" ID="{872075CC-45A2-4D9A-BB8D-D8CB91748C6C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{734150F7-A38C-4C4D-8497-5F4212381E84}"/>
+								<MusicCue Name="Exit Cue" ID="{E3950883-1096-4C3E-97CF-7C9EBD54BCD6}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="11610"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KINTRO" ID="{E2012623-1C44-498F-9935-5A5CA88DBAB6}" ShortID="625823778">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="14500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KINTRO" ID="{F983DEDF-F55F-4CD9-BB28-477133FA4F02}" ShortID="477918256">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KINTRO" ID="{ED197802-6D40-4B31-A383-2509D5AC8446}">
+											<Language>SFX</Language>
+											<AudioFile>KINTRO.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="571209469"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D557F4CB-82AF-449C-8A46-91D8AAF024D2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8AA4280D-E808-4151-A21D-1857CDF996D1}">
+											<ClipList>
+												<MusicClip Name="KINTRO" ID="{F5C21754-20DE-4932-894A-C2B66A9128F2}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="14500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KINTRO" ID="{ED197802-6D40-4B31-A383-2509D5AC8446}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{2BFADB65-57A2-4526-9C43-F42F73A24D9B}"/>
+								<MusicCue Name="Exit Cue" ID="{99FA17ED-8283-4A70-978E-542B7A793C67}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="14500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KMED_PHASE_FOUR" ID="{8B26FBBE-9279-4E3E-96FD-494EB3A8D9E5}" ShortID="924571042">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12338.9342403628"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KMED_PHASE_FOUR" ID="{13154685-E6CE-49C1-8DCB-1F960028D863}" ShortID="877678973">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KMED_PHASE_FOUR" ID="{046810C3-D9C6-4C59-802E-0BFEA0A5FEC0}">
+											<Language>SFX</Language>
+											<AudioFile>KMED_PHASE_FOUR.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="683899846"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3E55D96F-910D-45A2-ADEE-2549A21F41EC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E09ADD6D-FC20-4B9D-85EB-2358DF5CC35C}">
+											<ClipList>
+												<MusicClip Name="KMED_PHASE_FOUR" ID="{DB4E14C9-34F1-4CD1-A2F2-C5690361F363}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12338.9342403628"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KMED_PHASE_FOUR" ID="{046810C3-D9C6-4C59-802E-0BFEA0A5FEC0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{860A867D-1C51-4F25-B0E7-80C7C5DF4089}"/>
+								<MusicCue Name="Exit Cue" ID="{B4B2C4A5-4372-4B3A-9922-C74F55C84C43}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="12338.9342403628"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KMED_PHASE_ONE" ID="{36D9652C-774A-4B9D-8309-3D692560E387}" ShortID="460788635">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="21950"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KMED_PHASE_ONE" ID="{553E4AB2-4B48-4C82-9F0F-E33BA2B51F08}" ShortID="683668133">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KMED_PHASE_ONE" ID="{A8109177-8DA6-4124-B024-9C0A2D3A557A}">
+											<Language>SFX</Language>
+											<AudioFile>KMED_PHASE_ONE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="458409896"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{410E4EA1-AE2A-43D0-ABEB-4541E08B4437}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A1498517-3203-4BB6-BD87-69CE5A4FB4F6}">
+											<ClipList>
+												<MusicClip Name="KMED_PHASE_ONE" ID="{41DE7DC6-3CC1-45B0-97D4-E28B83453422}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="21950"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KMED_PHASE_ONE" ID="{A8109177-8DA6-4124-B024-9C0A2D3A557A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{3EE28D96-232F-424F-9E45-C74E1E283827}"/>
+								<MusicCue Name="Exit Cue" ID="{060A99F7-36F7-4DA3-BDA0-53D9EE60120A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="21950"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KMED_PHASE_THREE" ID="{3BA27B27-99DB-4D17-879E-B86D8C82986A}" ShortID="440603990">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="22850"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KMED_PHASE_THREE" ID="{2BDED6CF-093A-4EF7-9679-B7C8372532D9}" ShortID="497112622">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KMED_PHASE_THREE" ID="{E3B9F4B3-6855-4E7D-AE61-6E919837C5E3}">
+											<Language>SFX</Language>
+											<AudioFile>KMED_PHASE_THREE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="613378620"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{BE5A1BDA-B830-4E14-8EC2-77CC1AE7C164}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{33FE8A16-1416-46A8-8DD0-89F6E68423BF}">
+											<ClipList>
+												<MusicClip Name="KMED_PHASE_THREE" ID="{21C185A9-A2EB-47A6-AE76-00A4F488A41B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="22850"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KMED_PHASE_THREE" ID="{E3B9F4B3-6855-4E7D-AE61-6E919837C5E3}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{418D6781-F90C-4BCB-91DB-E4872B1F9846}"/>
+								<MusicCue Name="Exit Cue" ID="{15F4B797-3A65-4DD6-9791-0F04A10B2CCB}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="22850"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KMED_PHASE_TWO" ID="{683F5163-7712-4E19-9183-963BB54C4C64}" ShortID="716584551">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="10478.0045351474"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KMED_PHASE_TWO" ID="{7FBB40CB-E1D8-4A44-A21F-A1218F9C9713}" ShortID="989072014">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KMED_PHASE_TWO" ID="{B928DB7F-4F53-4D40-8109-49DC4E424F2D}">
+											<Language>SFX</Language>
+											<AudioFile>KMED_PHASE_TWO.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056987766"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D7263A70-4B82-4921-970A-CB616312AF89}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{09AA564D-F2BD-47DD-B1D5-8988706E35D5}">
+											<ClipList>
+												<MusicClip Name="KMED_PHASE_TWO" ID="{6D6BECF8-5634-4160-A11F-2FD26261E244}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="10478.0045351474"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KMED_PHASE_TWO" ID="{B928DB7F-4F53-4D40-8109-49DC4E424F2D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{3103EF86-2BE9-44C1-8D9A-E62D3D5314DC}"/>
+								<MusicCue Name="Exit Cue" ID="{C3C87936-5BEC-4AC7-9A01-3F20F691DD04}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="10478.0045351474"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KREST_PHASE_FOUR" ID="{9AB8ED12-932E-426B-8E92-BC71327348EE}" ShortID="82763930">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="23650"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KREST_PHASE_FOUR" ID="{8A56EE31-4A4A-4EEF-9083-55F12C8EA573}" ShortID="257847027">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KREST_PHASE_FOUR" ID="{97066CE1-271C-461D-9508-F9B847513BC0}">
+											<Language>SFX</Language>
+											<AudioFile>KREST_PHASE_FOUR.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002742649"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{510E9BCE-54AE-453C-8974-251C1844A0A8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2AB84455-808A-4F5A-B2BA-B13622011E7D}">
+											<ClipList>
+												<MusicClip Name="KREST_PHASE_FOUR" ID="{95AACACB-563E-4B19-B39C-200A9FFB0751}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="23650"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KREST_PHASE_FOUR" ID="{97066CE1-271C-461D-9508-F9B847513BC0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{456EA4E8-EAF8-4D97-A8EB-C8A1EB381504}"/>
+								<MusicCue Name="Exit Cue" ID="{D06F148B-1F84-431B-9DE7-92D1566B80E7}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="23650"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KREST_PHASE_ONE" ID="{645FA35A-5AA1-479B-9220-9164E2C39760}" ShortID="685623439">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="10072.2902494331"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KREST_PHASE_ONE" ID="{E1701E3D-5D01-4372-B9DD-4469C27559AB}" ShortID="467690807">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KREST_PHASE_ONE" ID="{03BACFBE-1104-4924-ABD6-0787812F014C}">
+											<Language>SFX</Language>
+											<AudioFile>KREST_PHASE_ONE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816140219"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{155C42AD-8E80-45E0-81DD-7A909723FEE2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6AEFA06C-B0D5-4339-8358-90F9216327D9}">
+											<ClipList>
+												<MusicClip Name="KREST_PHASE_ONE" ID="{CBBEE0D4-CC05-4C7B-ABBD-B4A8FD66CB03}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="10072.2902494331"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KREST_PHASE_ONE" ID="{03BACFBE-1104-4924-ABD6-0787812F014C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{48DE1885-2CC6-48B3-9C44-B55E75102B34}"/>
+								<MusicCue Name="Exit Cue" ID="{678E64FD-770C-4C8E-B222-78DB9F16853E}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="10072.2902494331"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KREST_PHASE_THREE" ID="{C08650C6-232C-4322-8F5E-0B1A46CD9CEF}" ShortID="406403571">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="9080"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KREST_PHASE_THREE" ID="{5BDB4AAE-D69D-4569-88E4-442D102C1816}" ShortID="22464726">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KREST_PHASE_THREE" ID="{715B5AE9-C39A-45AF-AAAD-19B34C9BBA79}">
+											<Language>SFX</Language>
+											<AudioFile>KREST_PHASE_THREE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157919017"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0759090D-7F18-41E2-9376-1F2A2F33758F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C4347BE3-37D4-4810-BE72-40149062B268}">
+											<ClipList>
+												<MusicClip Name="KREST_PHASE_THREE" ID="{F10C4C9B-FDDB-4660-86AC-044905B2A9D0}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="9080"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KREST_PHASE_THREE" ID="{715B5AE9-C39A-45AF-AAAD-19B34C9BBA79}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{B4D3483C-987E-4F6C-9B42-8B619594E1AA}"/>
+								<MusicCue Name="Exit Cue" ID="{A1A65DA9-281C-4E36-B7CB-348312DE8E6D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="9080"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="KREST_PHASE_TWO" ID="{7F0DF1CC-2A57-4D96-ADD9-426598DB272E}" ShortID="744577373">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="11000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="KREST_PHASE_TWO" ID="{D4B52296-0214-4A29-8F2D-91AD4B004152}" ShortID="102628818">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KREST_PHASE_TWO" ID="{95C1AED4-1593-413D-BF8F-E8DF97C7EF7C}">
+											<Language>SFX</Language>
+											<AudioFile>KREST_PHASE_TWO.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="68016561"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7586E7A0-FC68-420C-9CEB-AEA7E836EECF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5A714B03-953B-4BE4-BDDC-681CCCE2B0C6}">
+											<ClipList>
+												<MusicClip Name="KREST_PHASE_TWO" ID="{97189AB9-BBD3-493F-A39F-1A07E15BD5D4}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="11000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KREST_PHASE_TWO" ID="{95C1AED4-1593-413D-BF8F-E8DF97C7EF7C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{F3E34A66-A842-4A3C-9F21-625F6F04B3E3}"/>
+								<MusicCue Name="Exit Cue" ID="{5370B588-CD2F-4265-929D-3D4BA4584242}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="11000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{0286AEE1-C043-4AA0-AA68-8B88E91EA998}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{9AE5466E-037C-4BF3-A700-E91AD1A707F5}">
 									<TransitionInfo/>
 								</MusicTransition>
-							</TransitionList>
-							<SequenceList>
-								<MusicTrackSequence Name="" ID="{BCF2B4F2-BC8F-4E58-865B-1FABB59A1B9F}">
-									<ClipList>
-										<MusicClip Name="Tuturu (online-audio-converter_com)" ID="{DF5A8027-72E4-4751-B6ED-A241F217CFB0}">
-											<PropertyList>
-												<Property Name="EndTrimOffset" Type="Real64" Value="1532.52083333333"/>
-												<Property Name="FadeInMode" Type="int16" Value="0"/>
-												<Property Name="FadeOutMode" Type="int16" Value="0"/>
-											</PropertyList>
-											<AudioSourceRef Name="Tuturu (online-audio-converter_com)" ID="{2F007800-C36E-4BF4-A514-6F2BD0266D3E}"/>
-										</MusicClip>
-									</ClipList>
-								</MusicTrackSequence>
-							</SequenceList>
-						</MusicTrack>
-					</ChildrenList>
-					<CueList>
-						<MusicCue Name="Entry Cue" ID="{79C261F7-A320-496B-ADAE-C17EBA849BF2}"/>
-						<MusicCue Name="Exit Cue" ID="{00A68474-4BF5-40A9-8D8D-49EB1C8CFC44}">
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="Nasty Nasty Spell" ID="{4FF243A4-2524-487C-800B-B72EDF825E8F}" ShortID="106856740">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="CBFINISH" ID="{CD23F985-2696-4325-B6D2-907C65609274}" ShortID="443361685">
 							<PropertyList>
-								<Property Name="CueType" Type="int16" Value="1"/>
-								<Property Name="TimeMs" Type="Real64" Value="1532.52083333333"/>
+								<Property Name="EndPosition" Type="Real64" Value="21372.1541950113"/>
 							</PropertyList>
-						</MusicCue>
-					</CueList>
-				</MusicSegment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CBFINISH" ID="{99113EFC-434D-41C4-96F7-C3F338480EDE}" ShortID="182041269">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CBFINISH" ID="{1996080B-FFA1-4D5A-B03F-C02CB2FE2B13}">
+											<Language>SFX</Language>
+											<AudioFile>CBFINISH.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="124486983"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{85FD32E9-5F3C-447A-B69E-D8BDEA7E165A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{64C4D380-8EA9-4518-B43D-9C7DB74C91F4}">
+											<ClipList>
+												<MusicClip Name="CBFINISH" ID="{AC06CD5F-4333-48AD-963F-BBCC5BFC8913}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="21372.1541950113"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CBFINISH" ID="{1996080B-FFA1-4D5A-B03F-C02CB2FE2B13}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{913D5F78-F37E-4294-9B4C-3C49254B1036}"/>
+								<MusicCue Name="Exit Cue" ID="{9BB1F010-AFF7-4285-A5D7-CB290C9F6DA7}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="21372.1541950113"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CBINTENSE_PHASE_FINALE" ID="{EFE220A9-CB4A-4CC3-A9A8-989907C56794}" ShortID="887565176">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="32190.1360544218"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CBINTENSE_PHASE_FINALE" ID="{EC7F69C5-4A73-4E88-B919-EB3CEDA67B19}" ShortID="1052877287">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CBINTENSE_PHASE_FINALE" ID="{E6B8C5A3-F8F2-42C9-AAF1-8D5439B3A6DE}">
+											<Language>SFX</Language>
+											<AudioFile>CBINTENSE_PHASE_FINALE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="579333602"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{70ACA82F-6CCE-48D9-9E3F-D4A6AD2F20EC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{DD525BCF-915B-4037-9501-8C71939E56D8}">
+											<ClipList>
+												<MusicClip Name="CBINTENSE_PHASE_FINALE" ID="{BE9B410A-421F-462B-B688-4B4F4292503A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="32190.1360544218"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CBINTENSE_PHASE_FINALE" ID="{E6B8C5A3-F8F2-42C9-AAF1-8D5439B3A6DE}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{53D2CFB9-1257-4931-8FE3-E9C3C8158373}"/>
+								<MusicCue Name="Exit Cue" ID="{84929B15-B730-43A8-B22C-8410069E7EBD}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="32190.1360544218"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CBINTENSE_PHASE_ONE" ID="{6A05194D-2FD8-4D6E-96E6-C852EEBECB45}" ShortID="385860728">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="31300"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CBINTENSE_PHASE_ONE" ID="{A86970A4-151B-4C29-B505-8A4187E53545}" ShortID="899635208">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CBINTENSE_PHASE_ONE" ID="{30829EC4-B1EF-48C5-AD20-E8A7BE52B0E0}">
+											<Language>SFX</Language>
+											<AudioFile>CBINTENSE_PHASE_ONE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="239004214"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{18D61342-C479-44BE-975D-951AD9B4FB30}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A16B25AC-1B99-4DB5-8C9F-32C1D1C97E4B}">
+											<ClipList>
+												<MusicClip Name="CBINTENSE_PHASE_ONE" ID="{7C33A82F-3E64-442F-8D23-2CB6230030DC}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="31300"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CBINTENSE_PHASE_ONE" ID="{30829EC4-B1EF-48C5-AD20-E8A7BE52B0E0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{F64011D8-B1AA-4B1D-8C2C-6D9D95B7026D}"/>
+								<MusicCue Name="Exit Cue" ID="{C8618378-BF80-4D5E-9032-EF2232DFF40F}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="31300"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CBINTENSE_PHASE_TWO" ID="{22630569-65D2-44A3-B88F-4C369CA52488}" ShortID="180362898">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="28532.5850340136"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CBINTENSE_PHASE_TWO" ID="{48A10AEF-5A05-4FBF-B2A6-5F884B022748}" ShortID="827908445">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CBINTENSE_PHASE_TWO" ID="{E6FE89C6-D0CD-4BF7-895D-ADDDA451C3D5}">
+											<Language>SFX</Language>
+											<AudioFile>CBINTENSE_PHASE_TWO.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="908658149"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7CDB0129-6B0B-404B-BA78-BBBF4141E0DA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{280266FC-DEC5-4D21-B1EF-63F9830E823D}">
+											<ClipList>
+												<MusicClip Name="CBINTENSE_PHASE_TWO" ID="{38E6E85A-6A85-4775-8443-D368E757B046}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="28532.5850340136"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CBINTENSE_PHASE_TWO" ID="{E6FE89C6-D0CD-4BF7-895D-ADDDA451C3D5}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{3EE30E88-7546-465B-BAF0-6B16E134ABA1}"/>
+								<MusicCue Name="Exit Cue" ID="{C88721AF-B8D0-4129-8905-3C20CE56AA28}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="28532.5850340136"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CBINTRO" ID="{9F261803-43E5-4D39-96B7-85D0A8467BC4}" ShortID="303829815">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="30500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CBINTRO" ID="{7066CC16-CD3A-4FED-8EAF-796EDECD54DA}" ShortID="1064901050">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CBINTRO" ID="{A081AD78-99C6-43B9-9376-D3242309B7A1}">
+											<Language>SFX</Language>
+											<AudioFile>CBINTRO.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="306520398"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6CAA6096-4D66-4380-ABEB-B5B03904BE3B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6DD39811-4B9A-4BE2-BEEE-9777D494CB1F}">
+											<ClipList>
+												<MusicClip Name="CBINTRO" ID="{4A0169EC-D196-4D4A-825A-B7A64C09DAF6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="30500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CBINTRO" ID="{A081AD78-99C6-43B9-9376-D3242309B7A1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D8C1291C-0F07-4495-AED2-69E1841DC004}"/>
+								<MusicCue Name="Exit Cue" ID="{C91A4FF7-C458-4F95-BC8B-6672FF156105}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="30500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CBMED_PHASE_ONE" ID="{612E7D62-CC57-447D-8884-3146BCCB87F9}" ShortID="744708792">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="31200"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CBMED_PHASE_ONE" ID="{D757F905-FFA8-4D68-B329-C809D429A2DA}" ShortID="720931072">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CBMED_PHASE_ONE" ID="{AEC1369B-A4F8-4046-AB2A-BB78B9F77C30}">
+											<Language>SFX</Language>
+											<AudioFile>CBMED_PHASE_ONE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="427759389"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B8F0CE8F-DFF0-4663-AD77-091821C1C910}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{401D4546-1F04-47AE-AC39-7AB298EE1246}">
+											<ClipList>
+												<MusicClip Name="CBMED_PHASE_ONE" ID="{DC1A6991-4CC8-4E07-80BC-DA5812AB728F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="31200"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CBMED_PHASE_ONE" ID="{AEC1369B-A4F8-4046-AB2A-BB78B9F77C30}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{73025346-F8D0-4832-9E5F-EE1A9476C6DB}"/>
+								<MusicCue Name="Exit Cue" ID="{68023AA1-1314-4FE3-9524-B82E89A33AF3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="31200"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CBMED_PHASE_THREE" ID="{98C77373-06BD-4E12-A029-418FCC105725}" ShortID="791932084">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="39655.5102040816"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CBMED_PHASE_THREE" ID="{DFAA00FC-BA0E-477D-BA2F-0CD8784E59B5}" ShortID="362067138">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CBMED_PHASE_THREE" ID="{E5C9A22C-1E41-4B33-B6B2-9F838ACAB9E7}">
+											<Language>SFX</Language>
+											<AudioFile>CBMED_PHASE_THREE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="488924724"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CC510E40-EFA3-4FEA-82BA-7A684E177543}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CA1F2550-5A12-473A-855F-498AB2069FF4}">
+											<ClipList>
+												<MusicClip Name="CBMED_PHASE_THREE" ID="{D39C37B7-857C-4895-9075-D50F15C8BAA5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="39655.5102040816"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CBMED_PHASE_THREE" ID="{E5C9A22C-1E41-4B33-B6B2-9F838ACAB9E7}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{ACC2B1C9-C123-41E2-B1E3-0951B11B8B6D}"/>
+								<MusicCue Name="Exit Cue" ID="{886EE0C9-1B22-49A2-8343-D10F4CEAA16C}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="39655.5102040816"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CBMED_PHASE_TWO" ID="{C4028683-EB55-4B18-B4D6-4216B660174F}" ShortID="595712105">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="21800"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CBMED_PHASE_TWO" ID="{9DAD86ED-5E21-40FB-8FAE-84769D7DE801}" ShortID="617662088">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CBMED_PHASE_TWO" ID="{0B5F3271-CEBE-468D-A96F-19215BA36BCD}">
+											<Language>SFX</Language>
+											<AudioFile>CBMED_PHASE_TWO.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="713469002"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C5C12C78-93DA-4037-8E1F-F1E394FC58BF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C5ED6C16-1159-4829-8889-8014782CC091}">
+											<ClipList>
+												<MusicClip Name="CBMED_PHASE_TWO" ID="{9A3EABCD-6C56-41EA-9E04-4D515E78C70E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="21800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CBMED_PHASE_TWO" ID="{0B5F3271-CEBE-468D-A96F-19215BA36BCD}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{ED948D50-39F5-4640-A39A-8629D0785B3D}"/>
+								<MusicCue Name="Exit Cue" ID="{5FDA27FF-C830-4701-821A-4A4F289B682D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="21800"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CBREST_PHASE_ONE" ID="{66EAE582-EDBF-457C-B07A-DC29777D155D}" ShortID="1053344241">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="29461.8594104308"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CBREST_PHASE_ONE" ID="{4FFA3773-B1BC-4BB4-96BF-1669892DE8CD}" ShortID="190047883">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CBREST_PHASE_ONE" ID="{4E72D6C1-EDE8-4386-8CE9-0414A1EDCBE3}">
+											<Language>SFX</Language>
+											<AudioFile>CBREST_PHASE_ONE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="990950740"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{23651F82-361B-49A4-9C2B-91C54BA70C05}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6B4195E0-0945-455D-815D-2B7A7B3AFD88}">
+											<ClipList>
+												<MusicClip Name="CBREST_PHASE_ONE" ID="{5683B8E2-62BD-40E3-8745-5771D87F7CA5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="29461.8594104308"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CBREST_PHASE_ONE" ID="{4E72D6C1-EDE8-4386-8CE9-0414A1EDCBE3}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D31E8BEC-1CF9-48DC-A5F2-F607E5A43449}"/>
+								<MusicCue Name="Exit Cue" ID="{F44AAC9E-4837-4E12-8057-3C1275D75A09}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="29461.8594104308"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{4FE143EB-DFE4-4302-B72F-8426896A220C}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{CB16A8F9-6143-4841-91B2-F03FB63C62F5}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="First Town of this Journey" ID="{06598971-6AA1-4653-8138-804126340A39}" ShortID="562059491">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="CCFINISH" ID="{520CF6D5-93D2-4AF6-B225-030A3DEF0CE6}" ShortID="110857987">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="29992.9931972789"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CCFINISH" ID="{B2E74B28-5EC8-49EF-B13A-36E497D7C4F8}" ShortID="777152922">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CCFINISH" ID="{DD74985A-A83D-41E0-B057-DF5CC90691E3}">
+											<Language>SFX</Language>
+											<AudioFile>CCFINISH.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="574728966"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{90FDF4BB-AAEC-4E6C-80DB-423A4B31D654}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5063C535-59C5-48A2-B959-069968DE4E8A}">
+											<ClipList>
+												<MusicClip Name="CCFINISH" ID="{9B5CE6D2-AEE5-4381-BA91-D3095803DAB5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="29992.9931972789"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CCFINISH" ID="{DD74985A-A83D-41E0-B057-DF5CC90691E3}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{1B5553EA-5477-4E7D-8588-522E79EF43D4}"/>
+								<MusicCue Name="Exit Cue" ID="{75A03F30-3195-44EA-8CBB-14DFBAD5457A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="29992.9931972789"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CCINTRO" ID="{FC4FF404-563F-4821-864D-BDB65A3395E6}" ShortID="1068489484">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="45491.9954648526"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CCINTRO" ID="{976607FC-1F1E-421B-91DE-A377C0CC5F82}" ShortID="589975245">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CCINTRO" ID="{45292DB3-E99D-4084-AA12-BB840C55360F}">
+											<Language>SFX</Language>
+											<AudioFile>CCINTRO.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="683725062"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{999367A5-7F88-465C-8AA1-BD432899ABF5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{965EB83E-DF40-406D-998E-6C4178AAD490}">
+											<ClipList>
+												<MusicClip Name="CCINTRO" ID="{34F969F3-691C-43EA-9644-29FAAAF0F6E1}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="45491.9954648526"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CCINTRO" ID="{45292DB3-E99D-4084-AA12-BB840C55360F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{E203A041-818B-4FDD-BD66-3DB9EDA686CF}"/>
+								<MusicCue Name="Exit Cue" ID="{798359B2-11EA-4F62-B551-A300A7122331}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="45491.9954648526"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CCMED_PHASE_ONE" ID="{C655E846-7A0C-4480-8268-3B005702653F}" ShortID="753557705">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="45969.8639455782"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CCMED_PHASE_ONE" ID="{496F280C-5BBD-4878-9D3E-B891DBE98B84}" ShortID="631739766">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CCMED_PHASE_ONE" ID="{D0B93F82-7BCB-458F-9E8A-813DBE0DC438}">
+											<Language>SFX</Language>
+											<AudioFile>CCMED_PHASE_ONE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="581946966"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FE2E882B-E2B2-4F1A-83B8-245909BFC960}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{020931DE-639B-4862-8A3E-D8289E44E625}">
+											<ClipList>
+												<MusicClip Name="CCMED_PHASE_ONE" ID="{D02E30BE-387E-401B-BE82-20CEC75FB10A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="45969.8639455782"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CCMED_PHASE_ONE" ID="{D0B93F82-7BCB-458F-9E8A-813DBE0DC438}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{8B325BAE-2089-4C47-ADD1-267D494A9544}"/>
+								<MusicCue Name="Exit Cue" ID="{3F3AC589-FA99-445C-A62E-6F47055393C7}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="45969.8639455782"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CCMED_PHASE_THREE" ID="{0C868902-BF48-4F67-BFC8-77B114588124}" ShortID="1003777945">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="41892.5170068027"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CCMED_PHASE_THREE" ID="{343C7377-C89A-43FE-ADCE-02B1B313A3A6}" ShortID="67442980">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CCMED_PHASE_THREE" ID="{54C3C399-1790-4EAF-B8AE-970B7CC56BCF}">
+											<Language>SFX</Language>
+											<AudioFile>CCMED_PHASE_THREE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="960635444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9C711887-B2E6-4ECA-8838-F983F0D75F91}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0DFE77CD-4FD2-4AFF-A815-0747902004D9}">
+											<ClipList>
+												<MusicClip Name="CCMED_PHASE_THREE" ID="{CBFA5BCA-9E01-4376-881C-BAD4F0253C75}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="41892.5170068027"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CCMED_PHASE_THREE" ID="{54C3C399-1790-4EAF-B8AE-970B7CC56BCF}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{A91523AF-9502-4C1C-B034-128C023D839C}"/>
+								<MusicCue Name="Exit Cue" ID="{A3E3B2DB-FE40-408D-8A29-35DBCE822B0D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="41892.5170068027"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="CCMED_PHASE_TWO" ID="{C5ECD6ED-74FB-4677-8233-3264E81F0E13}" ShortID="314565949">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="59652.358276644"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{17C68024-EDD3-4888-A525-70BB8072FE5C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="CCMED_PHASE_TWO" ID="{36774EB7-8CC7-4237-BA9D-B4E57211C94F}" ShortID="220692643">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9756BE85-39DB-4216-8DD0-19DB851EBBEB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CCMED_PHASE_TWO" ID="{88D488DC-470D-44BD-A6A9-A326454D4421}">
+											<Language>SFX</Language>
+											<AudioFile>CCMED_PHASE_TWO.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="823837499"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{BCE8DDC8-7451-4182-9670-C2A95BD87FB9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{4885C6FD-1734-4160-ADF6-C26846FFBAEA}">
+											<ClipList>
+												<MusicClip Name="CCMED_PHASE_TWO" ID="{9A6375C8-F524-4198-A788-925CAC5D025A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="59652.358276644"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CCMED_PHASE_TWO" ID="{88D488DC-470D-44BD-A6A9-A326454D4421}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{1D783A7C-3798-41C7-8E19-ACF260F40C36}"/>
+								<MusicCue Name="Exit Cue" ID="{1895B8AA-8D6F-4BBC-8850-53AAF0C32289}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="59652.358276644"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{AE26D6A1-F36F-40D6-AF10-DAF11B5AA80B}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{340CB87C-D2E8-4B31-8B08-6F94F1581B84}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
