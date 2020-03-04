@@ -20,16 +20,6 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
-			<IncludedEvents>
-				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="OneShot" DurationMin="1.532521" DurationMax="1.532521">
-					<IncludedMemoryFiles>
-						<File Id="1033384467" Language="SFX">
-							<ShortName>Tuturu (online-audio-converter.com).wav</ShortName>
-							<Path>SFX\Tuturu (online-audio-converter.com)_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -1,3 +1,26 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1307758466	Nasty_State			\Default Work Unit\Nasty_State	
+	3386275297	Hug_State			\Default Work Unit\Hug_State	
+	4156162475	Town_State			\Default Work Unit\Town_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Nasty_State			
+	748895195	None	Hug_State			
+	1125500713	Intro	Hug_State			
+	1321947896	Rest_Phase_2	Hug_State			
+	1321947897	Rest_Phase_3	Hug_State			
+	1321947899	Rest_Phase_1	Hug_State			
+	1321947902	Rest_Phase_4	Hug_State			
+	2555741448	Finish	Hug_State			
+	3052308649	Intense_Phase_1	Hug_State			
+	3052308650	Intense_Phase_2	Hug_State			
+	3052308651	Intense_Phase_3	Hug_State			
+	3201503425	Med_Phase_1	Hug_State			
+	3201503426	Med_Phase_2	Hug_State			
+	3201503427	Med_Phase_3	Hug_State			
+	3201503428	Med_Phase_4	Hug_State			
+	748895195	None	Town_State			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

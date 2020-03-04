@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 71b90b83133d4f4eb199882add035c7f
     GuidInternal: 
-    m_lastTime: -8586187476390314274
+    m_lastTime: -8586183163438931098
     List:
     - name: Test
       guid: f6237e4ee09a6845b2e230a413ff0723
@@ -56,20 +56,44 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 36cbbb5b798d384f85ccfc35954e3eb0
     GuidInternal: 
-    m_lastTime: -8586187476390503767
+    m_lastTime: -8586183163439231559
     List:
-    - name: Test
-      guid: 6176bb970f58bf49a22c74b13e12478b
-      id: 3157003241
+    - name: First_Town
+      guid: 089cd537b4f601438da11097e89a899a
+      id: 1518276472
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Test
+      - ElementName: First_Town
         ObjectType: 3
-      Path: Default Work Unit\Test
+      Path: Default Work Unit\First_Town
       maxAttenuation: 0
-      maxDuration: 1.532521
-      minDuration: 1.532521
+      maxDuration: -1
+      minDuration: -1
+    - name: Hug_and_kill
+      guid: dddb85a7ea8b3c458d1a4589ad8f8ed7
+      id: 2647334216
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hug_and_kill
+        ObjectType: 3
+      Path: Default Work Unit\Hug_and_kill
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Nasty_Nasty_Spell
+      guid: 0dfe4e4de75916478ed0cf41ed34979a
+      id: 3770359097
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nasty_Nasty_Spell
+        ObjectType: 3
+      Path: Default Work Unit\Nasty_Nasty_Spell
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -82,8 +106,143 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 264a66de5f52b7438b09525afc111de5
     GuidInternal: 
-    m_lastTime: -8586187476390304302
-    List: []
+    m_lastTime: -8586183163337291895
+    List:
+    - name: Hug_State
+      guid: 69ce6c94c83dda4ca7b7dddf180cee35
+      id: 3386275297
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hug_State
+        ObjectType: 9
+      Path: Default Work Unit\Hug_State
+      values:
+      - name: Finish
+        guid: f26c28440f557d47bbdc646e9402d8c1
+        id: 2555741448
+        PathAndIcons:
+        - ElementName: Finish
+          ObjectType: 8
+      - name: Intense_Phase_1
+        guid: d167d0807e0795418e26c0f31258fc0e
+        id: 3052308649
+        PathAndIcons:
+        - ElementName: Intense_Phase_1
+          ObjectType: 8
+      - name: Intense_Phase_2
+        guid: 934981489a7fda44a8b637a2f5db51ec
+        id: 3052308650
+        PathAndIcons:
+        - ElementName: Intense_Phase_2
+          ObjectType: 8
+      - name: Intense_Phase_3
+        guid: 49cbc17302a53d4fa2ecab6dc308dc12
+        id: 3052308651
+        PathAndIcons:
+        - ElementName: Intense_Phase_3
+          ObjectType: 8
+      - name: Intro
+        guid: 41cc72218bddb5488226965b9e84bcbe
+        id: 1125500713
+        PathAndIcons:
+        - ElementName: Intro
+          ObjectType: 8
+      - name: Med_Phase_1
+        guid: 03a3562cd487564c9420d2eb1199a7d7
+        id: 3201503425
+        PathAndIcons:
+        - ElementName: Med_Phase_1
+          ObjectType: 8
+      - name: Med_Phase_2
+        guid: 4fc1e88238fe804aaa0d37653487030c
+        id: 3201503426
+        PathAndIcons:
+        - ElementName: Med_Phase_2
+          ObjectType: 8
+      - name: Med_Phase_3
+        guid: e1bb314f404f9545be631eb878309bba
+        id: 3201503427
+        PathAndIcons:
+        - ElementName: Med_Phase_3
+          ObjectType: 8
+      - name: Med_Phase_4
+        guid: bf089727f8a68c41b62ea919fccf6d06
+        id: 3201503428
+        PathAndIcons:
+        - ElementName: Med_Phase_4
+          ObjectType: 8
+      - name: None
+        guid: ecb8f3129ab4ac49a418055359a192cc
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Rest_Phase_1
+        guid: 6afa10123a87014f8edb50af9675ba11
+        id: 1321947899
+        PathAndIcons:
+        - ElementName: Rest_Phase_1
+          ObjectType: 8
+      - name: Rest_Phase_2
+        guid: dc533caeb5188c48add88ed0ae03a492
+        id: 1321947896
+        PathAndIcons:
+        - ElementName: Rest_Phase_2
+          ObjectType: 8
+      - name: Rest_Phase_3
+        guid: 4b584381b5586e4e8fa82b3b38dc864c
+        id: 1321947897
+        PathAndIcons:
+        - ElementName: Rest_Phase_3
+          ObjectType: 8
+      - name: Rest_Phase_4
+        guid: 9c1cc5ec06cba74cb464192ccac46e66
+        id: 1321947902
+        PathAndIcons:
+        - ElementName: Rest_Phase_4
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Nasty_State
+      guid: ca4f1eadea08e547b659c85490fe01cf
+      id: 1307758466
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nasty_State
+        ObjectType: 9
+      Path: Default Work Unit\Nasty_State
+      values:
+      - name: None
+        guid: 9820f124dad717478980963065882a55
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Town_State
+      guid: bc22e323571b72409b29996b0f2eb01b
+      id: 4156162475
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Town_State
+        ObjectType: 9
+      Path: Default Work Unit\Town_State
+      values:
+      - name: None
+        guid: e361a0e4babf4c40887d699a45f11c61
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPath: Default Work Unit
