@@ -20,13 +20,51 @@ public class PlayerController : MonoBehaviour
         m_left = false;
         m_right = false;
 
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        //debug
+        if (Application.platform == RuntimePlatform.WindowsEditor)
         {
-            m_left = true;
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            {
+                m_left = true;
+            }
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            {
+                m_right = true;
+            }
         }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+
+        //Android
+        else if (Application.platform == RuntimePlatform.Android)
         {
-            m_right = true;
+            if (PlayerPrefs.GetInt("TiltControls", 0) == 0)
+            {
+                //touch controls
+                foreach (Touch touch in Input.touches)
+                {
+                    if (touch.position.x < Screen.width / 2)
+                    {
+                        m_left = true;
+                    }
+
+                    else
+                    {
+                        m_right = true;
+                    }
+                }
+            }
+
+            else
+            {
+                //tilt controls
+                if (Input.acceleration.x > 0.05f)
+                {
+                    m_right = true;
+                }
+                else if (Input.acceleration.x < -0.05f)
+                {
+                    m_left = true;
+                }
+            }
         }
 
         if (m_left && !m_right)

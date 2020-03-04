@@ -19,13 +19,29 @@ public class ShipEnemy : MonoBehaviour
     
     void Update()
     {
-        //this is close, but bad
-        Vector3 target = m_player.transform.position - transform.position;
-        float targetAngle = Mathf.Tan(target.y / target.x) * Mathf.Rad2Deg;
-        //targetAngle = Mathf.Clamp(targetAngle, -30.0f, 30.0f);
-        transform.rotation = Quaternion.AngleAxis(targetAngle, Vector3.forward);
+        float targetX = m_player.transform.position.x - transform.position.x;
+        if (targetX >= 1.0f)
+        {
+            //move right
+            transform.rotation = Quaternion.AngleAxis(30.0f, Vector3.forward);
+        }
+        else if (targetX <= -1.0f)
+        {
+            //move left
+            transform.rotation = Quaternion.AngleAxis(-30.0f, Vector3.forward);
+        }
+        else
+        {
+            //move down
+            transform.rotation = Quaternion.AngleAxis(0.0f, Vector3.forward);
+        }
 
         transform.position -= transform.up * m_speed * Time.deltaTime;
+
+        if (transform.position.y <= -5.5f)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

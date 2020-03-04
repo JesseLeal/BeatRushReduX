@@ -7,6 +7,7 @@ public class Game : Singleton<Game>
 {
     [SerializeField] GameObject m_laserEnemy = null;
     [SerializeField] GameObject m_ballEnemy = null;
+    [SerializeField] GameObject m_shipEnemy = null;
 
     [SerializeField] TextMeshProUGUI m_scoreText = null;
     [SerializeField] TextMeshProUGUI m_multText = null;
@@ -31,6 +32,7 @@ public class Game : Singleton<Game>
         //temp code, just spawning enemies every now and then
         StartCoroutine(LaserSpawnRoutine());
         StartCoroutine(BallSpawnRoutine());
+        StartCoroutine(ShipSpawnRoutine());
     }
 
     void Update()
@@ -108,6 +110,22 @@ public class Game : Singleton<Game>
             Instantiate(m_ballEnemy, pos, Quaternion.identity);
 
             yield return new WaitForSeconds(m_testingIntensity * 1.1f);
+        }
+    }
+
+    private IEnumerator ShipSpawnRoutine()
+    {
+        float x_coord = 0.0f;
+        Vector3 pos = new Vector3();
+
+        for (int i = 0; i < 20; i++)
+        {
+            x_coord = Random.Range(-8.0f, 8.0f);
+            pos = new Vector3(x_coord, 7.0f, 0.0f);
+
+            Instantiate(m_shipEnemy, pos, Quaternion.identity);
+
+            yield return new WaitForSeconds(m_testingIntensity * 4.0f);
         }
     }
 }
