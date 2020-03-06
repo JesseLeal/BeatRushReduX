@@ -6,7 +6,6 @@ public class ShipEnemy : MonoBehaviour
 {
     [SerializeField] int m_scorePenalty = 200;
     [SerializeField] float m_speed = 1.0f;
-    [SerializeField] float m_RotationSpeed = 1.0f;
     [SerializeField] GameObject m_player = null;
 
     void Start()

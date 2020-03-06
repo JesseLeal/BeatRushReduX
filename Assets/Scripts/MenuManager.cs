@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
@@ -16,11 +17,19 @@ public class MenuManager : MonoBehaviour
     [SerializeField] Slider m_SFXSlider = null;
     [SerializeField] AudioMixer m_Mixer = null;
 
+    [SerializeField] TextMeshProUGUI m_HighScoreText1 = null;
+    [SerializeField] TextMeshProUGUI m_HighScoreText2 = null;
+    [SerializeField] TextMeshProUGUI m_HighScoreText3 = null;
+
     void Start()
     {
         m_TiltToggle.isOn = PlayerPrefs.GetInt("TiltControls", 0) == 1;
         m_MusicSlider.value = PlayerPrefs.GetInt("MusicVolume", 100);
         m_SFXSlider.value = PlayerPrefs.GetInt("SFXVolume", 100);
+
+        m_HighScoreText1.text = "High Score\n" + PlayerPrefs.GetInt("HighScore1", 0).ToString("D8");
+        m_HighScoreText2.text = "High Score\n" + PlayerPrefs.GetInt("HighScore2", 0).ToString("D8");
+        m_HighScoreText3.text = "High Score\n" + PlayerPrefs.GetInt("HighScore3", 0).ToString("D8");
 
         ToTitle();
     }
@@ -33,6 +42,8 @@ public class MenuManager : MonoBehaviour
 
         //also set the groups inside the audiomixer
         //needs a bit more research first
+        //AkSoundEngine.SetRTPCValue("", Mathf.FloorToInt(m_MusicSlider.value));
+        //AkSoundEngine.SetRTPCValue("", Mathf.FloorToInt(m_SFXSlider.value));
     }
 
     public void ToTitle()
