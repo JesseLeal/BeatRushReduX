@@ -28,10 +28,10 @@ public class WaveManipulator_CS : MonoBehaviour
     bool m_bar3CycleComplete = true;
 
 
-    [SerializeField] [Range(0.0f, 3.0f)] float multiplier = 1.0f;
+    [SerializeField] [Range(0.0f, 3.0f)] float m_multiplier = 1.0f;
 
     Material m_material = null;
-    float m_waveIntensity = 1.0f;
+
     void Start()
     {
         m_material = GetComponent<Renderer>().material;
@@ -39,7 +39,6 @@ public class WaveManipulator_CS : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log(AudioPeer_CS.m_amplitudeBuffer);
         UpdateDensity0();
         UpdateDensity1();
         UpdateDensity2();
@@ -62,7 +61,7 @@ public class WaveManipulator_CS : MonoBehaviour
         {
             if (m_bar0CycleComplete)
             {
-                m_material.SetFloat("Vector1_8F67339F", m_bar0Band * multiplier);
+                m_material.SetFloat("Vector1_8F67339F", m_bar0Band * m_multiplier);
                 m_bar0CycleComplete = false;
             }
         }
@@ -78,7 +77,7 @@ public class WaveManipulator_CS : MonoBehaviour
         {
             if (m_bar1CycleComplete)
             {
-                m_material.SetFloat("Vector1_BBE35185", m_bar1Band * multiplier);
+                m_material.SetFloat("Vector1_BBE35185", m_bar1Band * m_multiplier);
                 m_bar1CycleComplete = false;
             }
         }
@@ -94,7 +93,7 @@ public class WaveManipulator_CS : MonoBehaviour
         {
             if (m_bar2CycleComplete)
             {
-                m_material.SetFloat("Vector1_F5C92CBB", m_bar2Band * multiplier);
+                m_material.SetFloat("Vector1_F5C92CBB", m_bar2Band * m_multiplier);
                 m_bar2CycleComplete = false;
             }
         }
@@ -110,7 +109,7 @@ public class WaveManipulator_CS : MonoBehaviour
         {
             if (m_bar3CycleComplete)
             {
-                m_material.SetFloat("Vector1_C3489B25", m_bar3Band * multiplier);
+                m_material.SetFloat("Vector1_C3489B25", m_bar3Band * m_multiplier);
                 m_bar3CycleComplete = false;
             }
         }
