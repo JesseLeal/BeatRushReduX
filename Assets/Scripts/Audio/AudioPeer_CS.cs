@@ -31,9 +31,14 @@ public class AudioPeer_CS : MonoBehaviour
         BandBuffer();
         CreateAudioBands();
         GetAmplitude();
-        //AkSoundEngine.Event
     }
-    
+
+    void CallbackFunction(object in_cookie, AkCallbackType in_type, object in_info)
+    {
+        AkMusicSyncCallbackInfo info = (AkMusicSyncCallbackInfo)in_info;
+        print(60 / info.segmentInfo_fBeatDuration);
+    }
+
     void GetAmplitude()
     {
         float currentAmplitude = 0;

@@ -19,7 +19,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &556121471815059370
 Transform:
@@ -55,8 +55,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: ce26b86a5ca8c8e4cb8239243227c3e1,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
@@ -89,7 +88,7 @@ MonoBehaviour:
   m_bar2Band: 2
   m_wave3FrequencyThreshhold: 2
   m_bar3Band: 3
-  multiplier: 1.4
+  m_multiplier: 1
 --- !u!33 &556121471815059369
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -153,7 +152,7 @@ MonoBehaviour:
     initialListenerList: []
     useDefaultListeners: 1
   isEnvironmentAware: 1
-  isStaticObject: 1
+  isStaticObject: 0
   m_positionOffsetData:
     KeepMe: 0
     positionOffset: {x: 0, y: 0, z: 0}
