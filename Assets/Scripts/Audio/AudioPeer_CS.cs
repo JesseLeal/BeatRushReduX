@@ -31,6 +31,7 @@ public class AudioPeer_CS : MonoBehaviour
         BandBuffer();
         CreateAudioBands();
         GetAmplitude();
+        //AkSoundEngine.Event
     }
     
     void GetAmplitude()
