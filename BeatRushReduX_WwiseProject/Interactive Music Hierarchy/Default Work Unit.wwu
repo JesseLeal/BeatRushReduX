@@ -837,6 +837,115 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Hug_State" ID="{946CCE69-3DC8-4CDA-A7B7-DDDF180CEE35}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Finish" ID="{44286CF2-550F-477D-BBDC-646E9402D8C1}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KFINISH" ID="{00FD45FB-C9C6-4C6B-BB47-637B685CDE13}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intense_Phase_3" ID="{73C1CB49-A502-4F3D-A2EC-AB6DC308DC12}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KINTENSE_PHASE_FINALE" ID="{27A384B7-31E6-4540-BACB-81E6A8FA3C31}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intense_Phase_1" ID="{80D067D1-077E-4195-8E26-C0F31258FC0E}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KINTENSE_PHASE_ONE" ID="{827D2E5D-5497-4C4B-B1A9-D687C4A75582}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intense_Phase_2" ID="{48814993-7F9A-44DA-A8B6-37A2F5DB51EC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KINTENSE_PHASE_TWO" ID="{4B44F7D1-3033-49A6-B9B5-E374186B5D2A}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intro" ID="{2172CC41-DD8B-48B5-8226-965B9E84BCBE}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KINTRO" ID="{E2012623-1C44-498F-9935-5A5CA88DBAB6}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_1" ID="{2C56A303-87D4-4C56-9420-D2EB1199A7D7}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KMED_PHASE_ONE" ID="{36D9652C-774A-4B9D-8309-3D692560E387}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_2" ID="{82E8C14F-FE38-4A80-AA0D-37653487030C}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KMED_PHASE_TWO" ID="{683F5163-7712-4E19-9183-963BB54C4C64}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_3" ID="{4F31BBE1-4F40-4595-BE63-1EB878309BBA}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KMED_PHASE_THREE" ID="{3BA27B27-99DB-4D17-879E-B86D8C82986A}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_4" ID="{279708BF-A6F8-418C-B62E-A919FCCF6D06}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KMED_PHASE_FOUR" ID="{8B26FBBE-9279-4E3E-96FD-494EB3A8D9E5}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Rest_Phase_1" ID="{1210FA6A-873A-4F01-8EDB-50AF9675BA11}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KREST_PHASE_ONE" ID="{645FA35A-5AA1-479B-9220-9164E2C39760}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Rest_Phase_2" ID="{AE3C53DC-18B5-488C-ADD8-8ED0AE03A492}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KREST_PHASE_TWO" ID="{7F0DF1CC-2A57-4D96-ADD9-426598DB272E}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Rest_Phase_3" ID="{8143584B-58B5-4E6E-8FA8-2B3B38DC864C}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KREST_PHASE_THREE" ID="{C08650C6-232C-4322-8F5E-0B1A46CD9CEF}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Rest_Phase_4" ID="{ECC51C9C-CB06-4CA7-B464-192CCAC46E66}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="KREST_PHASE_FOUR" ID="{9AB8ED12-932E-426B-8E92-BC71327348EE}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="Nasty Nasty Spell" ID="{4FF243A4-2524-487C-800B-B72EDF825E8F}" ShortID="106856740">
 					<PropertyList>
@@ -1424,6 +1533,83 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Nasty_State" ID="{AD1E4FCA-08EA-47E5-B659-C85490FE01CF}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Finish" ID="{F67B6223-7144-425A-B4AE-2A82EC428CD7}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CBFINISH" ID="{CD23F985-2696-4325-B6D2-907C65609274}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intense_Phase_1" ID="{D73ED987-AE52-425D-A5EA-E8A9D2E76E6A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CBINTENSE_PHASE_ONE" ID="{6A05194D-2FD8-4D6E-96E6-C852EEBECB45}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intense_Phase_2" ID="{3CEE5368-07E8-4E30-9FC9-EBC07FECA9A7}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CBINTENSE_PHASE_TWO" ID="{22630569-65D2-44A3-B88F-4C369CA52488}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intense_Phase_3" ID="{F79C9DA5-4ED0-4707-BADC-B46E549AEF38}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CBINTENSE_PHASE_FINALE" ID="{EFE220A9-CB4A-4CC3-A9A8-989907C56794}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intro" ID="{047E072F-184B-493C-8102-93B2BAECCF79}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CBINTRO" ID="{9F261803-43E5-4D39-96B7-85D0A8467BC4}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_1" ID="{D56DACCE-EC14-4E4D-A7DA-E2FC5551787F}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CBMED_PHASE_ONE" ID="{612E7D62-CC57-447D-8884-3146BCCB87F9}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_2" ID="{826DA8A6-FC8A-40FD-9EDB-9CED854C82FD}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CBMED_PHASE_TWO" ID="{C4028683-EB55-4B18-B4D6-4216B660174F}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_3" ID="{FCCC9556-BA6E-43C8-94CA-9B23296AD28C}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CBMED_PHASE_THREE" ID="{98C77373-06BD-4E12-A029-418FCC105725}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Rest_Phase_1" ID="{A2568AB4-E59F-4EAA-9FD4-FA111EC25138}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CBREST_PHASE_ONE" ID="{66EAE582-EDBF-457C-B07A-DC29777D155D}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="First Town of this Journey" ID="{06598971-6AA1-4653-8138-804126340A39}" ShortID="562059491">
 					<PropertyList>
@@ -1763,6 +1949,51 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Town_State" ID="{23E322BC-1B57-4072-9B29-996B0F2EB01B}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intro" ID="{492939CE-E2FE-4892-9718-5155048B31CF}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CCINTRO" ID="{FC4FF404-563F-4821-864D-BDB65A3395E6}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Finish" ID="{E40EDFB2-DCB0-4D89-8260-475A5611D3ED}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CCFINISH" ID="{520CF6D5-93D2-4AF6-B225-030A3DEF0CE6}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_1" ID="{1BEB7E7A-5097-48CF-BA75-08117107E180}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CCMED_PHASE_ONE" ID="{C655E846-7A0C-4480-8268-3B005702653F}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_2" ID="{943DA7AE-81CD-4736-AAFB-D743F245B53D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CCMED_PHASE_TWO" ID="{C5ECD6ED-74FB-4677-8233-3264E81F0E13}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Med_Phase_3" ID="{A4E897C4-883C-41B7-98EE-04A07958BA97}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="CCMED_PHASE_THREE" ID="{0C868902-BF48-4F67-BFC8-77B114588124}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

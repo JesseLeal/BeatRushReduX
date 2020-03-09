@@ -3,9 +3,42 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{830BB971-3D13-4E4F-B199-882ADD035C7F}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Test" ID="{4E7E23F6-9AE0-4568-B2E2-30A413FF0723}">
+				<SoundBank Name="Hug_and_kill" ID="{73A0078A-2134-4518-B2F5-C299B6E39434}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="Test" ID="{97BB7661-580F-49BF-A22C-74B13E12478B}" WorkUnitID="{5BBBCB36-8D79-4F38-85CC-FC35954E3EB0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hug_and_kill" ID="{A785DBDD-8BEA-453C-8D1A-4589AD8F8ED7}" WorkUnitID="{5BBBCB36-8D79-4F38-85CC-FC35954E3EB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="None" ID="{E4A061E3-BFBA-404C-887D-699A45F11C61}" WorkUnitID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" Origin="Manual"/>
+						<GameSyncRef Name="Med_Phase_2" ID="{B7BD97E1-7612-42DE-8AC0-84179893825F}" WorkUnitID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" Origin="Manual"/>
+						<GameSyncRef Name="Med_Phase_1" ID="{30B5F355-2A21-4363-99C3-6200630F0D47}" WorkUnitID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" Origin="Manual"/>
+						<GameSyncRef Name="Finish" ID="{5617BA48-6005-43DB-A086-E8884BC9AE23}" WorkUnitID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" Origin="Manual"/>
+						<GameSyncRef Name="Intro" ID="{8F317678-4F7F-44B8-8C0D-35B140C421F9}" WorkUnitID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" Origin="Manual"/>
+						<GameSyncRef Name="Med_Phase_3" ID="{FF4118FE-03C0-45BF-88F5-06350AA3D5B6}" WorkUnitID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" Origin="Manual"/>
+					</GameSyncExclusionList>
+				</SoundBank>
+				<SoundBank Name="First_town" ID="{8CDEA292-F62C-4263-83B7-30834381865F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="First_Town" ID="{37D59C08-F6B4-4301-8DA1-1097E89A899A}" WorkUnitID="{5BBBCB36-8D79-4F38-85CC-FC35954E3EB0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Nasty_nasty" ID="{4960DB4C-B3E2-408C-A28F-8384F155823A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Nasty_Nasty_Spell" ID="{4D4EFE0D-59E7-4716-8ED0-CF41ED34979A}" WorkUnitID="{5BBBCB36-8D79-4F38-85CC-FC35954E3EB0}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{DE664A26-525F-43B7-8B09-525AFC111DE5}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="Hug_State" ID="{946CCE69-3DC8-4CDA-A7B7-DDDF180CEE35}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{12F3B8EC-B49A-49AC-A418-055359A192CC}"/>
 						<State Name="Intro" ID="{2172CC41-DD8B-48B5-8226-965B9E84BCBE}"/>
@@ -22,13 +26,35 @@
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Nasty_State" ID="{AD1E4FCA-08EA-47E5-B659-C85490FE01CF}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{24F12098-D7DA-4717-8980-963065882A55}"/>
+						<State Name="Intro" ID="{047E072F-184B-493C-8102-93B2BAECCF79}"/>
+						<State Name="Med_Phase_1" ID="{D56DACCE-EC14-4E4D-A7DA-E2FC5551787F}"/>
+						<State Name="Intense_Phase_1" ID="{D73ED987-AE52-425D-A5EA-E8A9D2E76E6A}"/>
+						<State Name="Med_Phase_2" ID="{826DA8A6-FC8A-40FD-9EDB-9CED854C82FD}"/>
+						<State Name="Intense_Phase_2" ID="{3CEE5368-07E8-4E30-9FC9-EBC07FECA9A7}"/>
+						<State Name="Rest_Phase_1" ID="{A2568AB4-E59F-4EAA-9FD4-FA111EC25138}"/>
+						<State Name="Med_Phase_3" ID="{FCCC9556-BA6E-43C8-94CA-9B23296AD28C}"/>
+						<State Name="Intense_Phase_3" ID="{F79C9DA5-4ED0-4707-BADC-B46E549AEF38}"/>
+						<State Name="Finish" ID="{F67B6223-7144-425A-B4AE-2A82EC428CD7}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Town_State" ID="{23E322BC-1B57-4072-9B29-996B0F2EB01B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{E4A061E3-BFBA-404C-887D-699A45F11C61}"/>
+						<State Name="Intro" ID="{492939CE-E2FE-4892-9718-5155048B31CF}"/>
+						<State Name="Med_Phase_1" ID="{1BEB7E7A-5097-48CF-BA75-08117107E180}"/>
+						<State Name="Med_Phase_2" ID="{943DA7AE-81CD-4736-AAFB-D743F245B53D}"/>
+						<State Name="Med_Phase_3" ID="{A4E897C4-883C-41B7-98EE-04A07958BA97}"/>
+						<State Name="Finish" ID="{E40EDFB2-DCB0-4D89-8260-475A5611D3ED}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

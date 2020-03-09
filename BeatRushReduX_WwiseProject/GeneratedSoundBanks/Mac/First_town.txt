@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1518276472	First_Town			\Default Work Unit\First_Town	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4156162475	Town_State			\Default Work Unit\Town_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Town_State			
+	1125500713	Intro	Town_State			
+	2555741448	Finish	Town_State			
+	3201503425	Med_Phase_1	Town_State			
+	3201503426	Med_Phase_2	Town_State			
+	3201503427	Med_Phase_3	Town_State			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	574728966	CCFINISH	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CCFINISH_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\First Town of this Journey\CCFINISH\CCFINISH		5290828
+	581946966	CCMED_PHASE_ONE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CCMED_PHASE_ONE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\First Town of this Journey\CCMED_PHASE_ONE\CCMED_PHASE_ONE		8109148
+	683725062	CCINTRO	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CCINTRO_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\First Town of this Journey\CCINTRO\CCINTRO		8024852
+	823837499	CCMED_PHASE_TWO	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CCMED_PHASE_TWO_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\First Town of this Journey\CCMED_PHASE_TWO\CCMED_PHASE_TWO		10522740
+	960635444	CCMED_PHASE_THREE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CCMED_PHASE_THREE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\First Town of this Journey\CCMED_PHASE_THREE\CCMED_PHASE_THREE		7389904
+

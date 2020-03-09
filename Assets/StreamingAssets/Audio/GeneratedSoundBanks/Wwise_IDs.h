@@ -11,6 +11,13 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID FIRST_TOWN = 1518276472U;
+        static const AkUniqueID HUG_AND_KILL = 2647334216U;
+        static const AkUniqueID NASTY_NASTY_SPELL = 3770359097U;
+    } // namespace EVENTS
+
     namespace STATES
     {
         namespace HUG_STATE
@@ -42,7 +49,16 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID FINISH = 2555741448U;
+                static const AkUniqueID INTENSE_PHASE_1 = 3052308649U;
+                static const AkUniqueID INTENSE_PHASE_2 = 3052308650U;
+                static const AkUniqueID INTENSE_PHASE_3 = 3052308651U;
+                static const AkUniqueID INTRO = 1125500713U;
+                static const AkUniqueID MED_PHASE_1 = 3201503425U;
+                static const AkUniqueID MED_PHASE_2 = 3201503426U;
+                static const AkUniqueID MED_PHASE_3 = 3201503427U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID REST_PHASE_1 = 1321947899U;
             } // namespace STATE
         } // namespace NASTY_STATE
 
@@ -52,6 +68,11 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID FINISH = 2555741448U;
+                static const AkUniqueID INTRO = 1125500713U;
+                static const AkUniqueID MED_PHASE_1 = 3201503425U;
+                static const AkUniqueID MED_PHASE_2 = 3201503426U;
+                static const AkUniqueID MED_PHASE_3 = 3201503427U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace TOWN_STATE
@@ -61,7 +82,9 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID TEST = 3157003241U;
+        static const AkUniqueID FIRST_TOWN = 1518276472U;
+        static const AkUniqueID HUG_AND_KILL = 2647334216U;
+        static const AkUniqueID NASTY_NASTY = 113212254U;
     } // namespace BANKS
 
     namespace BUSSES

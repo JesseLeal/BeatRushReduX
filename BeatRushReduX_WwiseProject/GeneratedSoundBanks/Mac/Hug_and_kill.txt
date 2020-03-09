@@ -1,0 +1,37 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2647334216	Hug_and_kill			\Default Work Unit\Hug_and_kill	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3386275297	Hug_State			\Default Work Unit\Hug_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Hug_State			
+	1125500713	Intro	Hug_State			
+	1321947896	Rest_Phase_2	Hug_State			
+	1321947897	Rest_Phase_3	Hug_State			
+	1321947899	Rest_Phase_1	Hug_State			
+	1321947902	Rest_Phase_4	Hug_State			
+	2555741448	Finish	Hug_State			
+	3052308649	Intense_Phase_1	Hug_State			
+	3052308650	Intense_Phase_2	Hug_State			
+	3052308651	Intense_Phase_3	Hug_State			
+	3201503425	Med_Phase_1	Hug_State			
+	3201503426	Med_Phase_2	Hug_State			
+	3201503427	Med_Phase_3	Hug_State			
+	3201503428	Med_Phase_4	Hug_State			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	68016561	KREST_PHASE_TWO	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KREST_PHASE_TWO_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KREST_PHASE_TWO\KREST_PHASE_TWO		1940464
+	157919017	KREST_PHASE_THREE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KREST_PHASE_THREE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KREST_PHASE_THREE\KREST_PHASE_THREE		1601776
+	217893668	KINTENSE_PHASE_FINALE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KINTENSE_PHASE_FINALE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KINTENSE_PHASE_FINALE\KINTENSE_PHASE_FINALE		5718456
+	311261215	KFINISH	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KFINISH_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KFINISH\KFINISH		2650020
+	458409896	KMED_PHASE_ONE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KMED_PHASE_ONE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KMED_PHASE_ONE\KMED_PHASE_ONE		3872044
+	571209469	KINTRO	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KINTRO_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KINTRO\KINTRO		2557864
+	613378620	KMED_PHASE_THREE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KMED_PHASE_THREE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KMED_PHASE_THREE\KMED_PHASE_THREE		4030804
+	683899846	KMED_PHASE_FOUR	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KMED_PHASE_FOUR_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KMED_PHASE_FOUR\KMED_PHASE_FOUR		2176652
+	812827970	KINTENSE_PHASE_ONE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KINTENSE_PHASE_ONE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KINTENSE_PHASE_ONE\KINTENSE_PHASE_ONE		4043092
+	816140219	KREST_PHASE_ONE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KREST_PHASE_ONE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KREST_PHASE_ONE\KREST_PHASE_ONE		1776816
+	941128363	KINTENSE_PHASE_TWO	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KINTENSE_PHASE_TWO_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KINTENSE_PHASE_TWO\KINTENSE_PHASE_TWO		2048068
+	1002742649	KREST_PHASE_FOUR	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KREST_PHASE_FOUR_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KREST_PHASE_FOUR\KREST_PHASE_FOUR		4171924
+	1056987766	KMED_PHASE_TWO	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\KMED_PHASE_TWO_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HUG AND KILL\KMED_PHASE_TWO\KMED_PHASE_TWO		1848384
+

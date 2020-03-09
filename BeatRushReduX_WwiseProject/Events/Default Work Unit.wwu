@@ -8,18 +8,45 @@
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A0A7373E-C8F2-497A-87AF-AB45E6F85D21}" ShortID="764436845">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HUG AND KILL" ID="{5336109C-8AB0-4D17-9F77-7C8D7536D4D5}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="Nasty_Nasty_Spell" ID="{4D4EFE0D-59E7-4716-8ED0-CF41ED34979A}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="1"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{5D8F83BA-8092-4EEF-8D07-039B117B49B2}" ShortID="242123432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Nasty Nasty Spell" ID="{4FF243A4-2524-487C-800B-B72EDF825E8F}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="First_Town" ID="{37D59C08-F6B4-4301-8DA1-1097E89A899A}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{EFA04CE7-7A38-4064-98C8-A561A002277E}" ShortID="1051861806">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="First Town of this Journey" ID="{06598971-6AA1-4653-8138-804126340A39}" WorkUnitID="{A8709315-1409-4621-ACE8-7D0089E9A260}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 			</ChildrenList>
 		</WorkUnit>

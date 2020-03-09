@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 49a5195d513f774fa428cc05f3057ebc
     GuidInternal: 
-    m_lastTime: -8586187476390284353
+    m_lastTime: -8586187013405358235
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 85be5697db3916428dd019db851ebbeb
     GuidInternal: 
-    m_lastTime: -8586187476390394054
+    m_lastTime: -8586187013405538250
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -40,23 +40,41 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 71b90b83133d4f4eb199882add035c7f
     GuidInternal: 
-    m_lastTime: -8586183163438931098
+    m_lastTime: -8586178758835994867
     List:
-    - name: Test
-      guid: f6237e4ee09a6845b2e230a413ff0723
-      id: 3157003241
+    - name: First_town
+      guid: 92a2de8c2cf6634283b730834381865f
+      id: 1518276472
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Test
+      - ElementName: First_town
         ObjectType: 7
-      Path: Default Work Unit\Test
+      Path: Default Work Unit\First_town
+    - name: Hug_and_kill
+      guid: 8a07a07334211845b2f5c299b6e39434
+      id: 2647334216
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hug_and_kill
+        ObjectType: 7
+      Path: Default Work Unit\Hug_and_kill
+    - name: Nasty_nasty
+      guid: 4cdb6049e2b38c40a28f8384f155823a
+      id: 113212254
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nasty_nasty
+        ObjectType: 7
+      Path: Default Work Unit\Nasty_nasty
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 36cbbb5b798d384f85ccfc35954e3eb0
     GuidInternal: 
-    m_lastTime: -8586183163439231559
+    m_lastTime: -8586178758853004689
     List:
     - name: First_Town
       guid: 089cd537b4f601438da11097e89a899a
@@ -99,14 +117,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d10f7d753a51694dae5970adcb3547d0
     GuidInternal: 
-    m_lastTime: -8586187476390503767
+    m_lastTime: -8586187013405698250
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 264a66de5f52b7438b09525afc111de5
     GuidInternal: 
-    m_lastTime: -8586183163337291895
+    m_lastTime: -8586178758835974765
     List:
     - name: Hug_State
       guid: 69ce6c94c83dda4ca7b7dddf180cee35
@@ -215,11 +233,65 @@ MonoBehaviour:
         ObjectType: 9
       Path: Default Work Unit\Nasty_State
       values:
+      - name: Finish
+        guid: 23627bf644715a42b4ae2a82ec428cd7
+        id: 2555741448
+        PathAndIcons:
+        - ElementName: Finish
+          ObjectType: 8
+      - name: Intense_Phase_1
+        guid: 87d93ed752ae5d42a5eae8a9d2e76e6a
+        id: 3052308649
+        PathAndIcons:
+        - ElementName: Intense_Phase_1
+          ObjectType: 8
+      - name: Intense_Phase_2
+        guid: 6853ee3ce807304e9fc9ebc07feca9a7
+        id: 3052308650
+        PathAndIcons:
+        - ElementName: Intense_Phase_2
+          ObjectType: 8
+      - name: Intense_Phase_3
+        guid: a59d9cf7d04e0747badcb46e549aef38
+        id: 3052308651
+        PathAndIcons:
+        - ElementName: Intense_Phase_3
+          ObjectType: 8
+      - name: Intro
+        guid: 2f077e044b183c49810293b2baeccf79
+        id: 1125500713
+        PathAndIcons:
+        - ElementName: Intro
+          ObjectType: 8
+      - name: Med_Phase_1
+        guid: ceac6dd514ec4d4ea7dae2fc5551787f
+        id: 3201503425
+        PathAndIcons:
+        - ElementName: Med_Phase_1
+          ObjectType: 8
+      - name: Med_Phase_2
+        guid: a6a86d828afcfd409edb9ced854c82fd
+        id: 3201503426
+        PathAndIcons:
+        - ElementName: Med_Phase_2
+          ObjectType: 8
+      - name: Med_Phase_3
+        guid: 5695ccfc6ebac84394ca9b23296ad28c
+        id: 3201503427
+        PathAndIcons:
+        - ElementName: Med_Phase_3
+          ObjectType: 8
       - name: None
         guid: 9820f124dad717478980963065882a55
         id: 748895195
         PathAndIcons:
         - ElementName: None
+          ObjectType: 8
+      - name: Rest_Phase_1
+        guid: b48a56a29fe5aa4e9fd4fa111ec25138
+        id: 1321947899
+        PathAndIcons:
+        - ElementName: Rest_Phase_1
           ObjectType: 8
       ValueGuids: []
       ValueIcons: []
@@ -234,6 +306,36 @@ MonoBehaviour:
         ObjectType: 9
       Path: Default Work Unit\Town_State
       values:
+      - name: Finish
+        guid: b2df0ee4b0dc894d8260475a5611d3ed
+        id: 2555741448
+        PathAndIcons:
+        - ElementName: Finish
+          ObjectType: 8
+      - name: Intro
+        guid: ce392949fee2924897185155048b31cf
+        id: 1125500713
+        PathAndIcons:
+        - ElementName: Intro
+          ObjectType: 8
+      - name: Med_Phase_1
+        guid: 7a7eeb1b9750cf48ba7508117107e180
+        id: 3201503425
+        PathAndIcons:
+        - ElementName: Med_Phase_1
+          ObjectType: 8
+      - name: Med_Phase_2
+        guid: aea73d94cd813647aafbd743f245b53d
+        id: 3201503426
+        PathAndIcons:
+        - ElementName: Med_Phase_2
+          ObjectType: 8
+      - name: Med_Phase_3
+        guid: c497e8a43c88b74198ee04a07958ba97
+        id: 3201503427
+        PathAndIcons:
+        - ElementName: Med_Phase_3
+          ObjectType: 8
       - name: None
         guid: e361a0e4babf4c40887d699a45f11c61
         id: 748895195
@@ -248,14 +350,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7763abcf3158cf488b0acbbb64911f65
     GuidInternal: 
-    m_lastTime: -8586187476390294311
+    m_lastTime: -8586187013405368215
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: b5c3e290619dcf449fc6522118d89605
     GuidInternal: 
-    m_lastTime: -8586187476390294311
+    m_lastTime: -8586187013405368215
     List: []
   ExpandedItems:
   - /BeatRushReduX_WwiseProject

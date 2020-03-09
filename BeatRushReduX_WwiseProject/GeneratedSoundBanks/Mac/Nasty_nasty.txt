@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3770359097	Nasty_Nasty_Spell			\Default Work Unit\Nasty_Nasty_Spell	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1307758466	Nasty_State			\Default Work Unit\Nasty_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Nasty_State			
+	1125500713	Intro	Nasty_State			
+	1321947899	Rest_Phase_1	Nasty_State			
+	2555741448	Finish	Nasty_State			
+	3052308649	Intense_Phase_1	Nasty_State			
+	3052308650	Intense_Phase_2	Nasty_State			
+	3052308651	Intense_Phase_3	Nasty_State			
+	3201503425	Med_Phase_1	Nasty_State			
+	3201503426	Med_Phase_2	Nasty_State			
+	3201503427	Med_Phase_3	Nasty_State			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124486983	CBFINISH	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CBFINISH_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nasty Nasty Spell\CBFINISH\CBFINISH		3770112
+	239004214	CBINTENSE_PHASE_ONE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CBINTENSE_PHASE_ONE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nasty Nasty Spell\CBINTENSE_PHASE_ONE\CBINTENSE_PHASE_ONE		5521384
+	306520398	CBINTRO	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CBINTRO_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nasty Nasty Spell\CBINTRO\CBINTRO		5380264
+	427759389	CBMED_PHASE_ONE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CBMED_PHASE_ONE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nasty Nasty Spell\CBMED_PHASE_ONE\CBMED_PHASE_ONE		5503744
+	488924724	CBMED_PHASE_THREE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CBMED_PHASE_THREE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nasty Nasty Spell\CBMED_PHASE_THREE\CBMED_PHASE_THREE		6995296
+	579333602	CBINTENSE_PHASE_FINALE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CBINTENSE_PHASE_FINALE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nasty Nasty Spell\CBINTENSE_PHASE_FINALE\CBINTENSE_PHASE_FINALE		5678404
+	713469002	CBMED_PHASE_TWO	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CBMED_PHASE_TWO_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nasty Nasty Spell\CBMED_PHASE_TWO\CBMED_PHASE_TWO		3845584
+	908658149	CBINTENSE_PHASE_TWO	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CBINTENSE_PHASE_TWO_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nasty Nasty Spell\CBINTENSE_PHASE_TWO\CBINTENSE_PHASE_TWO		5033212
+	990950740	CBREST_PHASE_ONE	C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Mac\SFX\CBREST_PHASE_ONE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nasty Nasty Spell\CBREST_PHASE_ONE\CBREST_PHASE_ONE		5197136
+
