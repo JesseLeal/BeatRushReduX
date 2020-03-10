@@ -194,6 +194,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_scorePenalty: 200
-  m_speed: 1
-  m_RotationSpeed: 1
+  m_speed: 2.5
   m_player: {fileID: 0}

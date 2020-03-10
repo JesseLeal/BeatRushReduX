@@ -13,7 +13,9 @@ public class Game : Singleton<Game>
     [SerializeField] TextMeshProUGUI m_multText = null;
 
     [SerializeField] PlayerController m_player = null;
-    [SerializeField] float m_intensity = 1.5f;
+    [SerializeField] float m_laserIntensity = 1.0f;
+    [SerializeField] float m_ballIntensity = 1.0f;
+    [SerializeField] float m_shipIntensity = 1.0f;
 
     private int m_score = 0;
     private int m_scoremult = 1;
@@ -93,7 +95,7 @@ public class Game : Singleton<Game>
             //    m_intensity -= 0.1f;
             //}
 
-            yield return new WaitForSeconds(m_intensity);
+            yield return new WaitForSeconds(m_laserIntensity);
         }
     }
 
@@ -109,7 +111,7 @@ public class Game : Singleton<Game>
 
             Instantiate(m_ballEnemy, pos, Quaternion.identity);
 
-            yield return new WaitForSeconds(m_intensity * 1.1f);
+            yield return new WaitForSeconds(m_ballIntensity);
         }
     }
 
@@ -125,12 +127,22 @@ public class Game : Singleton<Game>
 
             Instantiate(m_shipEnemy, pos, Quaternion.identity);
 
-            yield return new WaitForSeconds(m_intensity * 4.0f);
+            yield return new WaitForSeconds(m_shipIntensity);
         }
     }
 
-    public void SetIntensity(float newIntensity)
+    public void SetLaserIntensity(float newIntensity)
     {
-        m_intensity = newIntensity;
+        m_laserIntensity = newIntensity;
+    }
+
+    public void SetBallIntensity(float newIntensity)
+    {
+        m_ballIntensity = newIntensity;
+    }
+
+    public void SetShipIntensity(float newIntensity)
+    {
+        m_shipIntensity = newIntensity;
     }
 }
