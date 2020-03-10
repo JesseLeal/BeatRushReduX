@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\SetsunA\Documents\School Stuff\Emerging Platforms\BeatRushReduX\BeatRushReduX_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="113212254" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Nasty_nasty</ObjectPath>
+			<ShortName>Nasty_nasty</ShortName>
+			<Path>Nasty_nasty.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3770359097" Name="Nasty_Nasty_Spell" ObjectPath="\Events\Default Work Unit\Nasty_Nasty_Spell" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="124486983" Language="SFX">
+							<ShortName>CBFINISH.wav</ShortName>
+							<Path>SFX\CBFINISH_D79FB2B7.wem</Path>
+						</File>
+						<File Id="239004214" Language="SFX">
+							<ShortName>CBINTENSE_PHASE_ONE.wav</ShortName>
+							<Path>SFX\CBINTENSE_PHASE_ONE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="306520398" Language="SFX">
+							<ShortName>CBINTRO.wav</ShortName>
+							<Path>SFX\CBINTRO_D79FB2B7.wem</Path>
+						</File>
+						<File Id="427759389" Language="SFX">
+							<ShortName>CBMED_PHASE_ONE.wav</ShortName>
+							<Path>SFX\CBMED_PHASE_ONE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="488924724" Language="SFX">
+							<ShortName>CBMED_PHASE_THREE.wav</ShortName>
+							<Path>SFX\CBMED_PHASE_THREE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="579333602" Language="SFX">
+							<ShortName>CBINTENSE_PHASE_FINALE.wav</ShortName>
+							<Path>SFX\CBINTENSE_PHASE_FINALE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="713469002" Language="SFX">
+							<ShortName>CBMED_PHASE_TWO.wav</ShortName>
+							<Path>SFX\CBMED_PHASE_TWO_D79FB2B7.wem</Path>
+						</File>
+						<File Id="908658149" Language="SFX">
+							<ShortName>CBINTENSE_PHASE_TWO.wav</ShortName>
+							<Path>SFX\CBINTENSE_PHASE_TWO_D79FB2B7.wem</Path>
+						</File>
+						<File Id="990950740" Language="SFX">
+							<ShortName>CBREST_PHASE_ONE.wav</ShortName>
+							<Path>SFX\CBREST_PHASE_ONE_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{F67B6223-7144-425A-B4AE-2A82EC428CD7}">
+							<Media>
+								<File Id="124486983"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D73ED987-AE52-425D-A5EA-E8A9D2E76E6A}">
+							<Media>
+								<File Id="239004214"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3CEE5368-07E8-4E30-9FC9-EBC07FECA9A7}">
+							<Media>
+								<File Id="908658149"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F79C9DA5-4ED0-4707-BADC-B46E549AEF38}">
+							<Media>
+								<File Id="579333602"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{047E072F-184B-493C-8102-93B2BAECCF79}">
+							<Media>
+								<File Id="306520398"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D56DACCE-EC14-4E4D-A7DA-E2FC5551787F}">
+							<Media>
+								<File Id="427759389"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{826DA8A6-FC8A-40FD-9EDB-9CED854C82FD}">
+							<Media>
+								<File Id="713469002"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FCCC9556-BA6E-43C8-94CA-9B23296AD28C}">
+							<Media>
+								<File Id="488924724"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A2568AB4-E59F-4EAA-9FD4-FA111EC25138}">
+							<Media>
+								<File Id="990950740"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1307758466" Name="Nasty_State" ObjectPath="\States\Default Work Unit\Nasty_State">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Nasty_State\None"/>
+						<State Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Nasty_State\Intro"/>
+						<State Id="3201503425" Name="Med_Phase_1" ObjectPath="\States\Default Work Unit\Nasty_State\Med_Phase_1"/>
+						<State Id="3052308649" Name="Intense_Phase_1" ObjectPath="\States\Default Work Unit\Nasty_State\Intense_Phase_1"/>
+						<State Id="3201503426" Name="Med_Phase_2" ObjectPath="\States\Default Work Unit\Nasty_State\Med_Phase_2"/>
+						<State Id="3052308650" Name="Intense_Phase_2" ObjectPath="\States\Default Work Unit\Nasty_State\Intense_Phase_2"/>
+						<State Id="1321947899" Name="Rest_Phase_1" ObjectPath="\States\Default Work Unit\Nasty_State\Rest_Phase_1"/>
+						<State Id="3201503427" Name="Med_Phase_3" ObjectPath="\States\Default Work Unit\Nasty_State\Med_Phase_3"/>
+						<State Id="3052308651" Name="Intense_Phase_3" ObjectPath="\States\Default Work Unit\Nasty_State\Intense_Phase_3"/>
+						<State Id="2555741448" Name="Finish" ObjectPath="\States\Default Work Unit\Nasty_State\Finish"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1518276472" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\First_town</ObjectPath>
+			<ShortName>First_town</ShortName>
+			<Path>First_town.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1518276472" Name="First_Town" ObjectPath="\Events\Default Work Unit\First_Town" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="574728966" Language="SFX">
+							<ShortName>CCFINISH.wav</ShortName>
+							<Path>SFX\CCFINISH_D79FB2B7.wem</Path>
+						</File>
+						<File Id="581946966" Language="SFX">
+							<ShortName>CCMED_PHASE_ONE.wav</ShortName>
+							<Path>SFX\CCMED_PHASE_ONE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="683725062" Language="SFX">
+							<ShortName>CCINTRO.wav</ShortName>
+							<Path>SFX\CCINTRO_D79FB2B7.wem</Path>
+						</File>
+						<File Id="823837499" Language="SFX">
+							<ShortName>CCMED_PHASE_TWO.wav</ShortName>
+							<Path>SFX\CCMED_PHASE_TWO_D79FB2B7.wem</Path>
+						</File>
+						<File Id="960635444" Language="SFX">
+							<ShortName>CCMED_PHASE_THREE.wav</ShortName>
+							<Path>SFX\CCMED_PHASE_THREE_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{492939CE-E2FE-4892-9718-5155048B31CF}">
+							<Media>
+								<File Id="683725062"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E40EDFB2-DCB0-4D89-8260-475A5611D3ED}">
+							<Media>
+								<File Id="574728966"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1BEB7E7A-5097-48CF-BA75-08117107E180}">
+							<Media>
+								<File Id="581946966"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{943DA7AE-81CD-4736-AAFB-D743F245B53D}">
+							<Media>
+								<File Id="823837499"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A4E897C4-883C-41B7-98EE-04A07958BA97}">
+							<Media>
+								<File Id="960635444"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="4156162475" Name="Town_State" ObjectPath="\States\Default Work Unit\Town_State">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Town_State\None"/>
+						<State Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Town_State\Intro"/>
+						<State Id="3201503425" Name="Med_Phase_1" ObjectPath="\States\Default Work Unit\Town_State\Med_Phase_1"/>
+						<State Id="3201503426" Name="Med_Phase_2" ObjectPath="\States\Default Work Unit\Town_State\Med_Phase_2"/>
+						<State Id="3201503427" Name="Med_Phase_3" ObjectPath="\States\Default Work Unit\Town_State\Med_Phase_3"/>
+						<State Id="2555741448" Name="Finish" ObjectPath="\States\Default Work Unit\Town_State\Finish"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="2647334216" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Hug_and_kill</ObjectPath>
+			<ShortName>Hug_and_kill</ShortName>
+			<Path>Hug_and_kill.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2647334216" Name="Hug_and_kill" ObjectPath="\Events\Default Work Unit\Hug_and_kill" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="68016561" Language="SFX">
+							<ShortName>KREST_PHASE_TWO.wav</ShortName>
+							<Path>SFX\KREST_PHASE_TWO_D79FB2B7.wem</Path>
+						</File>
+						<File Id="157919017" Language="SFX">
+							<ShortName>KREST_PHASE_THREE.wav</ShortName>
+							<Path>SFX\KREST_PHASE_THREE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="217893668" Language="SFX">
+							<ShortName>KINTENSE_PHASE_FINALE.wav</ShortName>
+							<Path>SFX\KINTENSE_PHASE_FINALE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="311261215" Language="SFX">
+							<ShortName>KFINISH.wav</ShortName>
+							<Path>SFX\KFINISH_D79FB2B7.wem</Path>
+						</File>
+						<File Id="458409896" Language="SFX">
+							<ShortName>KMED_PHASE_ONE.wav</ShortName>
+							<Path>SFX\KMED_PHASE_ONE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="571209469" Language="SFX">
+							<ShortName>KINTRO.wav</ShortName>
+							<Path>SFX\KINTRO_D79FB2B7.wem</Path>
+						</File>
+						<File Id="613378620" Language="SFX">
+							<ShortName>KMED_PHASE_THREE.wav</ShortName>
+							<Path>SFX\KMED_PHASE_THREE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="683899846" Language="SFX">
+							<ShortName>KMED_PHASE_FOUR.wav</ShortName>
+							<Path>SFX\KMED_PHASE_FOUR_D79FB2B7.wem</Path>
+						</File>
+						<File Id="812827970" Language="SFX">
+							<ShortName>KINTENSE_PHASE_ONE.wav</ShortName>
+							<Path>SFX\KINTENSE_PHASE_ONE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="816140219" Language="SFX">
+							<ShortName>KREST_PHASE_ONE.wav</ShortName>
+							<Path>SFX\KREST_PHASE_ONE_D79FB2B7.wem</Path>
+						</File>
+						<File Id="941128363" Language="SFX">
+							<ShortName>KINTENSE_PHASE_TWO.wav</ShortName>
+							<Path>SFX\KINTENSE_PHASE_TWO_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1002742649" Language="SFX">
+							<ShortName>KREST_PHASE_FOUR.wav</ShortName>
+							<Path>SFX\KREST_PHASE_FOUR_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1056987766" Language="SFX">
+							<ShortName>KMED_PHASE_TWO.wav</ShortName>
+							<Path>SFX\KMED_PHASE_TWO_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{44286CF2-550F-477D-BBDC-646E9402D8C1}">
+							<Media>
+								<File Id="311261215"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{73C1CB49-A502-4F3D-A2EC-AB6DC308DC12}">
+							<Media>
+								<File Id="217893668"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{80D067D1-077E-4195-8E26-C0F31258FC0E}">
+							<Media>
+								<File Id="812827970"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{48814993-7F9A-44DA-A8B6-37A2F5DB51EC}">
+							<Media>
+								<File Id="941128363"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2172CC41-DD8B-48B5-8226-965B9E84BCBE}">
+							<Media>
+								<File Id="571209469"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2C56A303-87D4-4C56-9420-D2EB1199A7D7}">
+							<Media>
+								<File Id="458409896"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{82E8C14F-FE38-4A80-AA0D-37653487030C}">
+							<Media>
+								<File Id="1056987766"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4F31BBE1-4F40-4595-BE63-1EB878309BBA}">
+							<Media>
+								<File Id="613378620"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{279708BF-A6F8-418C-B62E-A919FCCF6D06}">
+							<Media>
+								<File Id="683899846"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1210FA6A-873A-4F01-8EDB-50AF9675BA11}">
+							<Media>
+								<File Id="816140219"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AE3C53DC-18B5-488C-ADD8-8ED0AE03A492}">
+							<Media>
+								<File Id="68016561"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8143584B-58B5-4E6E-8FA8-2B3B38DC864C}">
+							<Media>
+								<File Id="157919017"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{ECC51C9C-CB06-4CA7-B464-192CCAC46E66}">
+							<Media>
+								<File Id="1002742649"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="3386275297" Name="Hug_State" ObjectPath="\States\Default Work Unit\Hug_State">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Hug_State\None"/>
+						<State Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Hug_State\Intro"/>
+						<State Id="3201503425" Name="Med_Phase_1" ObjectPath="\States\Default Work Unit\Hug_State\Med_Phase_1"/>
+						<State Id="1321947899" Name="Rest_Phase_1" ObjectPath="\States\Default Work Unit\Hug_State\Rest_Phase_1"/>
+						<State Id="3201503426" Name="Med_Phase_2" ObjectPath="\States\Default Work Unit\Hug_State\Med_Phase_2"/>
+						<State Id="1321947896" Name="Rest_Phase_2" ObjectPath="\States\Default Work Unit\Hug_State\Rest_Phase_2"/>
+						<State Id="3052308649" Name="Intense_Phase_1" ObjectPath="\States\Default Work Unit\Hug_State\Intense_Phase_1"/>
+						<State Id="1321947897" Name="Rest_Phase_3" ObjectPath="\States\Default Work Unit\Hug_State\Rest_Phase_3"/>
+						<State Id="3201503427" Name="Med_Phase_3" ObjectPath="\States\Default Work Unit\Hug_State\Med_Phase_3"/>
+						<State Id="1321947902" Name="Rest_Phase_4" ObjectPath="\States\Default Work Unit\Hug_State\Rest_Phase_4"/>
+						<State Id="3201503428" Name="Med_Phase_4" ObjectPath="\States\Default Work Unit\Hug_State\Med_Phase_4"/>
+						<State Id="3052308650" Name="Intense_Phase_2" ObjectPath="\States\Default Work Unit\Hug_State\Intense_Phase_2"/>
+						<State Id="3052308651" Name="Intense_Phase_3" ObjectPath="\States\Default Work Unit\Hug_State\Intense_Phase_3"/>
+						<State Id="2555741448" Name="Finish" ObjectPath="\States\Default Work Unit\Hug_State\Finish"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
