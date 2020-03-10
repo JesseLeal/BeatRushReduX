@@ -13,7 +13,7 @@ public class Game : Singleton<Game>
     [SerializeField] TextMeshProUGUI m_multText = null;
 
     [SerializeField] PlayerController m_player = null;
-    [SerializeField] float m_testingIntensity = 1.5f;
+    [SerializeField] float m_intensity = 1.5f;
 
     private int m_score = 0;
     private int m_scoremult = 1;
@@ -79,7 +79,7 @@ public class Game : Singleton<Game>
         Vector3 pos = new Vector3();
         Quaternion rot = new Quaternion();
 
-        for (int i = 0; i < 100; i++)
+        while (true)
         {
             x_coord = Random.Range(-8.0f, 8.0f);
             z_rot = Random.Range(-6, 7) * 5;
@@ -88,12 +88,12 @@ public class Game : Singleton<Game>
 
             Instantiate(m_laserEnemy, pos, rot);
 
-            if (i % 10 == 0)
-            {
-                m_testingIntensity -= 0.1f;
-            }
+            //if (i % 10 == 0)
+            //{
+            //    m_intensity -= 0.1f;
+            //}
 
-            yield return new WaitForSeconds(m_testingIntensity);
+            yield return new WaitForSeconds(m_intensity);
         }
     }
 
@@ -101,15 +101,15 @@ public class Game : Singleton<Game>
     {
         float x_coord = 0.0f;
         Vector3 pos = new Vector3();
-
-        for (int i = 0; i < 80; i++)
+        
+        while (true)
         {
             x_coord = Random.Range(-8.0f, 8.0f);
             pos = new Vector3(x_coord, 7.0f, 0.0f);
 
             Instantiate(m_ballEnemy, pos, Quaternion.identity);
 
-            yield return new WaitForSeconds(m_testingIntensity * 1.1f);
+            yield return new WaitForSeconds(m_intensity * 1.1f);
         }
     }
 
@@ -118,14 +118,19 @@ public class Game : Singleton<Game>
         float x_coord = 0.0f;
         Vector3 pos = new Vector3();
 
-        for (int i = 0; i < 20; i++)
+        while (true)
         {
             x_coord = Random.Range(-8.0f, 8.0f);
             pos = new Vector3(x_coord, 7.0f, 0.0f);
 
             Instantiate(m_shipEnemy, pos, Quaternion.identity);
 
-            yield return new WaitForSeconds(m_testingIntensity * 4.0f);
+            yield return new WaitForSeconds(m_intensity * 4.0f);
         }
+    }
+
+    public void SetIntensity(float newIntensity)
+    {
+        m_intensity = newIntensity;
     }
 }
