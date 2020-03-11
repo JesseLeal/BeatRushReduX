@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Game : Singleton<Game>
 {
@@ -11,6 +13,7 @@ public class Game : Singleton<Game>
 
     [SerializeField] TextMeshProUGUI m_scoreText = null;
     [SerializeField] TextMeshProUGUI m_multText = null;
+    [SerializeField] GameObject m_DimPanel = null;
 
     [SerializeField] PlayerController m_player = null;
     [SerializeField] float m_laserIntensity = 1.0f;
@@ -146,5 +149,34 @@ public class Game : Singleton<Game>
     public void SetShipIntensity(float newIntensity)
     {
         m_shipIntensity = newIntensity;
+    }
+
+    public void GameEnd(int levelIndex)
+    {
+        StopAllCoroutines();
+        m_canScore = false;
+
+        if (m_score > PlayerPrefs.GetInt("HighScore" + levelIndex))
+        {
+            PlayerPrefs.SetInt("HighScore" + levelIndex, m_score);
+        }
+
+        StartCoroutine(GameEndRoutine());
+    }
+
+    private IEnumerator GameEndRoutine()
+    {
+        m_DimPanel.SetActive(true);
+        Image panelSprite = m_DimPanel.GetComponent<Image>();
+        Color newColor = new Color(1.0f, 1.0f, 1.0f, 0.0f);
+
+        for (int i = 0; i < 120; i++)
+        {
+            newColor.a += 0.01f;
+            panelSprite.color = newColor;
+            yield return new WaitForEndOfFrame();
+        }
+
+        SceneManager.LoadScene("MainMenu");
     }
 }
