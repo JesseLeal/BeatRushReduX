@@ -910,6 +910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1330711997}
   - component: {fileID: 1330711996}
+  - component: {fileID: 1330711998}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -938,7 +939,9 @@ MonoBehaviour:
   m_scoreText: {fileID: 1247640134}
   m_multText: {fileID: 21472253}
   m_player: {fileID: 0}
-  m_testingIntensity: 1.1
+  m_laserIntensity: 1
+  m_ballIntensity: 1
+  m_shipIntensity: 1
 --- !u!4 &1330711997
 Transform:
   m_ObjectHideFlags: 0
@@ -953,6 +956,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1330711998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330711995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fe5d5b1b2b83549926bd11f245873e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_levelDiffuculty: 3
+  m_waveRef: {fileID: 1967983218}
 --- !u!1 &1674534925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,3 +1194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aafa0904ab1743549b445c5d34836bae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1967983218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6866414144483543477, guid: 2ba57fad0ebdb4242a2ee6d2bd36eb6d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1029851552}
+  m_PrefabAsset: {fileID: 0}

@@ -154,6 +154,13 @@ public class Game : Singleton<Game>
     public void GameEnd(int levelIndex)
     {
         StopAllCoroutines();
+
+        StartCoroutine(GameEndRoutine(levelIndex));
+    }
+
+    private IEnumerator GameEndRoutine(int levelIndex)
+    {
+        yield return new WaitForSeconds(2.0f);
         m_canScore = false;
 
         if (m_score > PlayerPrefs.GetInt("HighScore" + levelIndex))
@@ -161,18 +168,13 @@ public class Game : Singleton<Game>
             PlayerPrefs.SetInt("HighScore" + levelIndex, m_score);
         }
 
-        StartCoroutine(GameEndRoutine());
-    }
-
-    private IEnumerator GameEndRoutine()
-    {
         m_DimPanel.SetActive(true);
         Image panelSprite = m_DimPanel.GetComponent<Image>();
-        Color newColor = new Color(1.0f, 1.0f, 1.0f, 0.0f);
+        Color newColor = new Color(0.0f, 0.0f, 0.0f, 0.0f);
 
-        for (int i = 0; i < 120; i++)
+        for (int i = 0; i < 180; i++)
         {
-            newColor.a += 0.01f;
+            newColor.a += 0.006f;
             panelSprite.color = newColor;
             yield return new WaitForEndOfFrame();
         }

@@ -32,9 +32,15 @@ public class WaveManipulator_CS : MonoBehaviour
 
     Material m_material = null;
 
-    void Start()
+    private void Awake()
     {
         m_material = GetComponent<Renderer>().material;
+    }
+
+    void Start()
+    {
+        //m_material.SetVector("_Color", new Vector4(0.0f, 1.0f, 0.0f, 1.0f));
+
     }
 
     void Update()
@@ -53,6 +59,11 @@ public class WaveManipulator_CS : MonoBehaviour
     private void OnPostRender()
     {
         GL.wireframe = false;
+    }
+
+    public Material GetMaterial()
+    {
+        return m_material;
     }
 
     void UpdateDensity0()
