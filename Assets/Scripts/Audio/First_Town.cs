@@ -13,6 +13,9 @@ public class First_Town : MonoBehaviour
     IEnumerator Intro()
     {
         AkSoundEngine.SetState("Town_State", "Intro");
+        Game.Instance.SetLaserIntensity(0.6f);
+        Game.Instance.SetBallIntensity(45f);
+        Game.Instance.SetShipIntensity(45f);
         yield return new WaitForSeconds(45f);
         Debug.Log("MedPhaseOne");
         StartCoroutine("MedPhaseOne");
@@ -21,6 +24,9 @@ public class First_Town : MonoBehaviour
     IEnumerator MedPhaseOne()
     {
         AkSoundEngine.SetState("Town_State", "Med_Phase_1");
+        Game.Instance.SetLaserIntensity(45.970f);
+        Game.Instance.SetBallIntensity(0.6f);
+        Game.Instance.SetShipIntensity(45.970f);
         yield return new WaitForSeconds(45.970f);
         Debug.Log("MedPhaseTwo");
         StartCoroutine("MedPhaseTwo");
@@ -29,6 +35,9 @@ public class First_Town : MonoBehaviour
     IEnumerator MedPhaseTwo()
     {
         AkSoundEngine.SetState("Town_State", "Med_Phase_2");
+        Game.Instance.SetLaserIntensity(59.652f);
+        Game.Instance.SetBallIntensity(59.652f);
+        Game.Instance.SetShipIntensity(0.6f);
         yield return new WaitForSeconds(59.652f);
         Debug.Log("MedPhaseThree");
         StartCoroutine("MedPhaseThree");
@@ -38,6 +47,9 @@ public class First_Town : MonoBehaviour
     IEnumerator MedPhaseThree()
     {
         AkSoundEngine.SetState("Town_State", "Med_Phase_3");
+        Game.Instance.SetLaserIntensity(0.5f);
+        Game.Instance.SetBallIntensity(0.5f);
+        Game.Instance.SetShipIntensity(0.5f);
         yield return new WaitForSeconds(41.893f);
         Debug.Log("Final");
         StartCoroutine("Final");
@@ -46,7 +58,11 @@ public class First_Town : MonoBehaviour
     IEnumerator Final()
     {
         AkSoundEngine.SetState("Town_State", "Finish");
-        yield return new WaitForSeconds(0f);
+        Game.Instance.SetLaserIntensity(2f);
+        Game.Instance.SetBallIntensity(2f);
+        Game.Instance.SetShipIntensity(2f);
+        yield return new WaitForSeconds(27f);
+        Game.Instance.GameEnd(1);
     }
 
 }

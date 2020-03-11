@@ -17,7 +17,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(2f);
         Game.Instance.SetBallIntensity(2f);
         Game.Instance.SetShipIntensity(1f);
-        yield return new WaitForSeconds(13.1f);
+        yield return new WaitForSeconds(13.5f);
         Debug.Log("MedPhaseOne");
         StartCoroutine("MedPhaseOne");
     }
@@ -28,7 +28,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(0.65f);
         Game.Instance.SetBallIntensity(0.5f);
         Game.Instance.SetShipIntensity(0.85f);
-        yield return new WaitForSeconds(20.95f);
+        yield return new WaitForSeconds(21.95f);
         Debug.Log("RestPhaseOne");
         StartCoroutine("RestPhaseOne");
     }
@@ -39,7 +39,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(1f);
         Game.Instance.SetBallIntensity(1f);
         Game.Instance.SetShipIntensity(1f);
-        yield return new WaitForSeconds(9f);
+        yield return new WaitForSeconds(10f);
         Debug.Log("MedPhaseTwo");
         StartCoroutine("MedPhaseTwo");
     }
@@ -50,7 +50,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(0.6f);
         Game.Instance.SetBallIntensity(0.8f);
         Game.Instance.SetShipIntensity(0.7f);
-        yield return new WaitForSeconds(9.478f);
+        yield return new WaitForSeconds(10.478f);
         Debug.Log("RestPhaseTwo");
         StartCoroutine("RestPhaseTwo");
     }
@@ -61,7 +61,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(0.95f);
         Game.Instance.SetBallIntensity(1f);
         Game.Instance.SetShipIntensity(1.2f);
-        yield return new WaitForSeconds(15f);
+        yield return new WaitForSeconds(11.5f);
         Debug.Log("IntensePhaseOne");
         StartCoroutine("IntensePhaseOne");
     }
@@ -72,7 +72,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(0.2f);
         Game.Instance.SetBallIntensity(0.1f);
         Game.Instance.SetShipIntensity(0.3f);
-        yield return new WaitForSeconds(21.9f);
+        yield return new WaitForSeconds(22.0f);
         Debug.Log("RestPhaseThree");
         StartCoroutine("RestPhaseThree");
     }
@@ -83,7 +83,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(1f);
         Game.Instance.SetBallIntensity(0.8f);
         Game.Instance.SetShipIntensity(1f);
-        yield return new WaitForSeconds(8.08f);
+        yield return new WaitForSeconds(9.08f);
         Debug.Log("MedPhaseThree");
         StartCoroutine("MedPhaseThree");
     }
@@ -94,7 +94,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(0.9f);
         Game.Instance.SetBallIntensity(0.8f);
         Game.Instance.SetShipIntensity(0.7f);
-        yield return new WaitForSeconds(21.85f);
+        yield return new WaitForSeconds(22.85f);
         Debug.Log("RestPhaseFour");
         StartCoroutine("RestPhaseFour");
     }
@@ -105,7 +105,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(1.2f);
         Game.Instance.SetBallIntensity(1f);
         Game.Instance.SetShipIntensity(1f);
-        yield return new WaitForSeconds(22.65f);
+        yield return new WaitForSeconds(23.65f);
         Debug.Log("MedPhaseFour");
         StartCoroutine("MedPhaseFour");
     }
@@ -116,7 +116,7 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(0.9f);
         Game.Instance.SetBallIntensity(0.7f);
         Game.Instance.SetShipIntensity(0.9f);
-        yield return new WaitForSeconds(15.339f);
+        yield return new WaitForSeconds(13.339f);
         Debug.Log("IntensePhaseTwo");
         StartCoroutine("IntensePhaseTwo");
     }
@@ -125,9 +125,9 @@ public class HUG_AND_KILL : MonoBehaviour
     {
         AkSoundEngine.SetState("Hug_State", "Intense_Phase_2");
         Game.Instance.SetLaserIntensity(0.07f);
-        Game.Instance.SetBallIntensity(40f);
-        Game.Instance.SetShipIntensity(40f);
-        yield return new WaitForSeconds(12f);
+        Game.Instance.SetBallIntensity(45f);
+        Game.Instance.SetShipIntensity(45f);
+        yield return new WaitForSeconds(11.2f);
         Debug.Log("IntensePhaseThree");
         StartCoroutine("IntensePhaseThree");
     }
@@ -135,9 +135,9 @@ public class HUG_AND_KILL : MonoBehaviour
     {
         AkSoundEngine.SetState("Hug_State", "Intense_Phase_3");
         Game.Instance.SetLaserIntensity(0.02f);
-        Game.Instance.SetBallIntensity(40f);
-        Game.Instance.SetShipIntensity(40f);
-        yield return new WaitForSeconds(31.417f);
+        Game.Instance.SetBallIntensity(0.1f);
+        Game.Instance.SetShipIntensity(0.1f);
+        yield return new WaitForSeconds(32.417f);
         Debug.Log("Finale");
         StartCoroutine("Final");
     }
@@ -148,7 +148,8 @@ public class HUG_AND_KILL : MonoBehaviour
         Game.Instance.SetLaserIntensity(1f);
         Game.Instance.SetBallIntensity(1f);
         Game.Instance.SetShipIntensity(1f);
-        yield return new WaitForSeconds(0f);
+        yield return new WaitForSeconds(18f);
+        Game.Instance.GameEnd(3);
     }
 
 }

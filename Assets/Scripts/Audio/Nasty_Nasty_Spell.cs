@@ -13,7 +13,9 @@ public class Nasty_Nasty_Spell : MonoBehaviour
     IEnumerator Intro()
     {
         AkSoundEngine.SetState("Nasty_State", "Intro");
-        //Game.Instance.SetIntensity(2f);
+        Game.Instance.SetLaserIntensity(2f);
+        Game.Instance.SetBallIntensity(1f);
+        Game.Instance.SetShipIntensity(2f);
         yield return new WaitForSeconds(29f);
         Debug.Log("MedPhaseOne");
         StartCoroutine("MedPhaseOne");
@@ -22,7 +24,9 @@ public class Nasty_Nasty_Spell : MonoBehaviour
     IEnumerator MedPhaseOne()
     {
         AkSoundEngine.SetState("Nasty_State", "Med_Phase_1");
-        //Game.Instance.SetIntensity(0.8f);
+        Game.Instance.SetLaserIntensity(0.6f);
+        Game.Instance.SetBallIntensity(0.6f);
+        Game.Instance.SetShipIntensity(0.6f);
         yield return new WaitForSeconds(31.2f);
         Debug.Log("IntensePhaseOne");
         StartCoroutine("IntensePhaseOne");
@@ -31,7 +35,9 @@ public class Nasty_Nasty_Spell : MonoBehaviour
     IEnumerator IntensePhaseOne()
     {
         AkSoundEngine.SetState("Nasty_State", "Intense_Phase_1");
-       //Game.Instance.SetIntensity(0.6f);
+        Game.Instance.SetLaserIntensity(0.5f);
+        Game.Instance.SetBallIntensity(0.2f);
+        Game.Instance.SetShipIntensity(0.6f);
         yield return new WaitForSeconds(31.3f);
         Debug.Log("MedPhaseTwo");
         StartCoroutine("MedPhaseTwo");
@@ -40,7 +46,9 @@ public class Nasty_Nasty_Spell : MonoBehaviour
     IEnumerator MedPhaseTwo()
     {
         AkSoundEngine.SetState("Nasty_State", "Med_Phase_2");
-       // Game.Instance.SetIntensity(0.7f);
+        Game.Instance.SetLaserIntensity(0.8f);
+        Game.Instance.SetBallIntensity(0.7f);
+        Game.Instance.SetShipIntensity(0.7f);
         yield return new WaitForSeconds(21.8f);
         Debug.Log("IntensePhaseTwo");
         StartCoroutine("IntensePhaseTwo");
@@ -49,7 +57,9 @@ public class Nasty_Nasty_Spell : MonoBehaviour
     IEnumerator IntensePhaseTwo()
     {
         AkSoundEngine.SetState("Nasty_State", "Intense_Phase_2");
-        //Game.Instance.SetIntensity(0.4f);
+        Game.Instance.SetLaserIntensity(0.3f);
+        Game.Instance.SetBallIntensity(0.3f);
+        Game.Instance.SetShipIntensity(0.3f);
         yield return new WaitForSeconds(28.533f);
         Debug.Log("RestPhaseOne");
         StartCoroutine("RestPhaseOne");
@@ -57,7 +67,9 @@ public class Nasty_Nasty_Spell : MonoBehaviour
     IEnumerator RestPhaseOne()
     {
         AkSoundEngine.SetState("Nasty_State", "Rest_Phase_1");
-        //Game.Instance.SetIntensity(1f);
+        Game.Instance.SetLaserIntensity(1f);
+        Game.Instance.SetBallIntensity(1f);
+        Game.Instance.SetShipIntensity(1f);
         yield return new WaitForSeconds(29.462f);
         Debug.Log("MedPhaseThree");
         StartCoroutine("MedPhaseThree");
@@ -66,7 +78,9 @@ public class Nasty_Nasty_Spell : MonoBehaviour
     IEnumerator MedPhaseThree()
     {
         AkSoundEngine.SetState("Nasty_State", "Med_Phase_3");
-        //Game.Instance.SetIntensity(0.7f);
+        Game.Instance.SetLaserIntensity(0.6f);
+        Game.Instance.SetBallIntensity(0.5f);
+        Game.Instance.SetShipIntensity(0.5f);
         yield return new WaitForSeconds(39.656f);
         Debug.Log("IntensePhaseThree");
         StartCoroutine("IntensePhaseThree");
@@ -75,7 +89,9 @@ public class Nasty_Nasty_Spell : MonoBehaviour
     IEnumerator IntensePhaseThree()
     {
         AkSoundEngine.SetState("Nasty_State", "Intense_Phase_3");
-        //Game.Instance.SetIntensity(0.27f);
+        Game.Instance.SetLaserIntensity(0.2f);
+        Game.Instance.SetBallIntensity(0.4f);
+        Game.Instance.SetShipIntensity(0.4f);
         yield return new WaitForSeconds(32.19f);
         Debug.Log("Finale");
         StartCoroutine("Final");
@@ -84,8 +100,11 @@ public class Nasty_Nasty_Spell : MonoBehaviour
     IEnumerator Final()
     {
         AkSoundEngine.SetState("Nasty_State", "Finish");
-        //Game.Instance.SetIntensity(1.5f);
-        yield return new WaitForSeconds(0f);
+        Game.Instance.SetLaserIntensity(1f);
+        Game.Instance.SetBallIntensity(1f);
+        Game.Instance.SetShipIntensity(1f);
+        yield return new WaitForSeconds(18f);
+        Game.Instance.GameEnd(2);
     }
 
 }
