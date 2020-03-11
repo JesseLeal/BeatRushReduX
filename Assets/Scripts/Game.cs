@@ -31,6 +31,8 @@ public class Game : Singleton<Game>
             m_player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         }
 
+        AudioListener.volume = PlayerPrefs.GetInt("MusicVolume", 100) / 100.0f;
+
         //temp code, just spawning enemies every now and then
         StartCoroutine(LaserSpawnRoutine());
         StartCoroutine(BallSpawnRoutine());

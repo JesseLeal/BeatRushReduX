@@ -14,8 +14,7 @@ public class MenuManager : MonoBehaviour
 
     [SerializeField] Toggle m_TiltToggle = null;
     [SerializeField] Slider m_MusicSlider = null;
-    [SerializeField] Slider m_SFXSlider = null;
-    [SerializeField] AudioMixer m_Mixer = null;
+    //[SerializeField] Slider m_SFXSlider = null;
 
     [SerializeField] TextMeshProUGUI m_HighScoreText1 = null;
     [SerializeField] TextMeshProUGUI m_HighScoreText2 = null;
@@ -25,7 +24,8 @@ public class MenuManager : MonoBehaviour
     {
         m_TiltToggle.isOn = PlayerPrefs.GetInt("TiltControls", 0) == 1;
         m_MusicSlider.value = PlayerPrefs.GetInt("MusicVolume", 100);
-        m_SFXSlider.value = PlayerPrefs.GetInt("SFXVolume", 100);
+        AudioListener.volume = PlayerPrefs.GetInt("MusicVolume", 100) / 100.0f; 
+        //m_SFXSlider.value = PlayerPrefs.GetInt("SFXVolume", 100);
 
         m_HighScoreText1.text = "High Score\n" + PlayerPrefs.GetInt("HighScore1", 0).ToString("D8");
         m_HighScoreText2.text = "High Score\n" + PlayerPrefs.GetInt("HighScore2", 0).ToString("D8");
@@ -38,7 +38,8 @@ public class MenuManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("TiltControls", m_TiltToggle.isOn ? 1 : 0);
         PlayerPrefs.SetInt("MusicVolume", Mathf.FloorToInt(m_MusicSlider.value));
-        PlayerPrefs.SetInt("SFXVolume", Mathf.FloorToInt(m_SFXSlider.value));
+        AudioListener.volume = PlayerPrefs.GetInt("MusicVolume", 100) / 100.0f;
+        //PlayerPrefs.SetInt("SFXVolume", Mathf.FloorToInt(m_SFXSlider.value));
 
         //also set the groups inside the audiomixer
         //needs a bit more research first
