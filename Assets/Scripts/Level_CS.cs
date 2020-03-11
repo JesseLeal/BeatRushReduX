@@ -12,12 +12,14 @@ public class Level_CS : MonoBehaviour
 
     string m_matColorShaderRef = "_Color";
 
-    enum eLevelDifficulty
+    public enum eLevelDifficulty
     {
         EASY = 1,
         MEDIUM = 2,
         HARD = 3
     }
+
+    public eLevelDifficulty LevelDifficulty { get { return m_levelDiffuculty; } }
 
     void Start()
     {

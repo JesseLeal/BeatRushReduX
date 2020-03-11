@@ -9,10 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7042037311288138526}
+  - component: {fileID: 281906589094542625}
   - component: {fileID: 7042037311288138527}
   - component: {fileID: 7042037311288138496}
   m_Layer: 8
-  m_Name: PostProcess_Volume
+  m_Name: PostProcessVolume_Pref
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,6 +33,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &281906589094542625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7042037311288138497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d06b754d3ea8f240badf535d1c80890, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_wave0FrequencyThreshhold: 2
+  m_bar0Band: 0
 --- !u!65 &7042037311288138527
 BoxCollider:
   m_ObjectHideFlags: 0
