@@ -47,9 +47,9 @@ public class First_Town : MonoBehaviour
     IEnumerator MedPhaseThree()
     {
         AkSoundEngine.SetState("Town_State", "Med_Phase_3");
-        Game.Instance.SetLaserIntensity(0.5f);
-        Game.Instance.SetBallIntensity(0.5f);
-        Game.Instance.SetShipIntensity(0.5f);
+        Game.Instance.SetLaserIntensity(0.7f);
+        Game.Instance.SetBallIntensity(0.7f);
+        Game.Instance.SetShipIntensity(0.7f);
         yield return new WaitForSeconds(41.893f);
         Debug.Log("Final");
         StartCoroutine("Final");
