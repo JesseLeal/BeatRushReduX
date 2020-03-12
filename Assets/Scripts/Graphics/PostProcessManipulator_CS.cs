@@ -40,6 +40,6 @@ public class PostProcessManipulator_CS : MonoBehaviour
         //{
         //    m_bar0CycleComplete = true;
         //}
-        m_vignetteLayer.intensity.value = Mathf.Sin(Time.time);
+        //m_vignetteLayer.intensity.value = Mathf.Sin(Time.time);
     }
 }

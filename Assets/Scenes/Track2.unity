@@ -809,6 +809,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 3bbaebd9ea907434db87786cca336632, type: 3}
+    - target: {fileID: 1760571095479475884, guid: 2ba57fad0ebdb4242a2ee6d2bd36eb6d,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2947061811079980997, guid: 2ba57fad0ebdb4242a2ee6d2bd36eb6d,
         type: 3}
       propertyPath: isStaticObject
@@ -1314,7 +1319,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
