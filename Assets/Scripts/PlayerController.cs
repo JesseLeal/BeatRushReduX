@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] float m_speed = 100.0f;
     [SerializeField] float m_invincibleTime = 2.0f;
+    [SerializeField] Sprite m_normalSprite = null;
+    [SerializeField] Sprite m_hurtSprite = null;
 
     private bool m_left = false;
     private bool m_right = false;
@@ -86,11 +88,12 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator HitRoutine()
     {
-        //play the I've been hit sound, make them flash, come back in a fixed time
         GetComponent<Collider2D>().enabled = false;
+        GetComponent<SpriteRenderer>().sprite = m_hurtSprite;
 
         yield return new WaitForSeconds(m_invincibleTime);
 
         GetComponent<Collider2D>().enabled = true;
+        GetComponent<SpriteRenderer>().sprite = m_normalSprite;
     }
 }

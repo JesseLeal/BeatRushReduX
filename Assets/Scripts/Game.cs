@@ -45,7 +45,7 @@ public class Game : Singleton<Game>
     void Update()
     {
         m_streakTime += Time.deltaTime;
-        m_scoremult = m_scoreMultipliers[Mathf.Clamp((int)Mathf.Floor(m_streakTime / 5.0f), 0, m_scoreMultipliers.Length - 1)];
+        m_scoremult = m_scoreMultipliers[Mathf.Clamp((int)Mathf.Floor(m_streakTime / 3.0f), 0, m_scoreMultipliers.Length - 1)];
 
         if (m_canScore)
         {
@@ -81,6 +81,8 @@ public class Game : Singleton<Game>
 
     private IEnumerator LaserSpawnRoutine()
     {
+        yield return new WaitForSeconds(m_laserIntensity);
+
         float x_coord = 0.0f;
         int z_rot = 0;
         Vector3 pos = new Vector3();
@@ -106,6 +108,8 @@ public class Game : Singleton<Game>
 
     private IEnumerator BallSpawnRoutine()
     {
+        yield return new WaitForSeconds(m_ballIntensity);
+
         float x_coord = 0.0f;
         Vector3 pos = new Vector3();
         
@@ -122,6 +126,8 @@ public class Game : Singleton<Game>
 
     private IEnumerator ShipSpawnRoutine()
     {
+        yield return new WaitForSeconds(m_shipIntensity);
+
         float x_coord = 0.0f;
         Vector3 pos = new Vector3();
 
