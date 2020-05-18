@@ -1195,6 +1195,7 @@ GameObject:
   - component: {fileID: 1785654745}
   - component: {fileID: 1785654742}
   - component: {fileID: 1785654746}
+  - component: {fileID: 1785654750}
   - component: {fileID: 1785654749}
   - component: {fileID: 1785654747}
   m_Layer: 0
@@ -1408,6 +1409,31 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &1785654750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785654741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910d1d929889d09439c2a80cc0685dbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 95c9e09b64392f84fa9e509be9835097,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1967983218 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6866414144483543477, guid: 2ba57fad0ebdb4242a2ee6d2bd36eb6d,

@@ -14,9 +14,9 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        
+
     }
-    
+
     void Update()
     {
         m_left = false;
@@ -58,11 +58,11 @@ public class PlayerController : MonoBehaviour
             else
             {
                 //tilt controls
-                if (Input.acceleration.x > 0.05f)
+                if (Input.acceleration.x > 0.15f)
                 {
                     m_right = true;
                 }
-                else if (Input.acceleration.x < -0.05f)
+                else if (Input.acceleration.x < -0.15f)
                 {
                     m_left = true;
                 }
